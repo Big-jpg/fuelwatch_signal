@@ -1,0 +1,293 @@
+[
+  {
+    "dataset": "brands",
+    "endpoint": "/brands",
+    "params": {},
+    "status": "ok",
+    "rows": 35,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\brands.json",
+    "warning": null
+  },
+  {
+    "dataset": "products",
+    "endpoint": "/products",
+    "params": {},
+    "status": "ok",
+    "rows": 7,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\products.json",
+    "warning": null
+  },
+  {
+    "dataset": "suburbs",
+    "endpoint": "/sites/suburbs",
+    "params": {},
+    "status": "ok",
+    "rows": 364,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\suburbs.json",
+    "warning": null
+  },
+  {
+    "dataset": "parameters",
+    "endpoint": "/configuration/parameter",
+    "params": {},
+    "status": "ok",
+    "rows": null,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\parameters.json",
+    "warning": null
+  },
+  {
+    "dataset": "toggles",
+    "endpoint": "/configuration/toggle",
+    "params": {},
+    "status": "ok",
+    "rows": 2,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\toggles.json",
+    "warning": null
+  },
+  {
+    "dataset": "alerts",
+    "endpoint": "/alerts",
+    "params": {},
+    "status": "ok",
+    "rows": 4,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\alerts.json",
+    "warning": null
+  },
+  {
+    "dataset": "groups",
+    "endpoint": "/groups",
+    "params": {},
+    "status": "error",
+    "rows": null,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\groups.json",
+    "warning": "404 Client Error: Not Found for url: https://www.fuelwatch.wa.gov.au/api/groups"
+  },
+  {
+    "dataset": "regions",
+    "endpoint": "/region",
+    "params": {},
+    "status": "ok",
+    "rows": 10,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reference\\regions.json",
+    "warning": null
+  },
+  {
+    "dataset": "sites_ULP",
+    "endpoint": "/sites",
+    "params": {
+      "fuelType": "ULP"
+    },
+    "status": "ok",
+    "rows": 738,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\sites\\sites_ULP.json",
+    "warning": null
+  },
+  {
+    "dataset": "sites_DSL",
+    "endpoint": "/sites",
+    "params": {
+      "fuelType": "DSL"
+    },
+    "status": "ok",
+    "rows": 459,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\sites\\sites_DSL.json",
+    "warning": null
+  },
+  {
+    "dataset": "sites_98R",
+    "endpoint": "/sites",
+    "params": {
+      "fuelType": "98R"
+    },
+    "status": "ok",
+    "rows": 653,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\sites\\sites_98R.json",
+    "warning": null
+  },
+  {
+    "dataset": "current_prices_flat",
+    "endpoint": "derived",
+    "params": {
+      "fuels": [
+        "ULP",
+        "DSL",
+        "98R"
+      ]
+    },
+    "status": "ok",
+    "rows": 1850,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\flat\\current_prices.csv",
+    "warning": null
+  },
+  {
+    "dataset": "price_trends_Metro_ULP",
+    "endpoint": "/report/price-trends",
+    "params": {
+      "region": "Metro",
+      "fuelType": "ULP"
+    },
+    "status": "ok",
+    "rows": 31,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reports\\price_trends_Metro_ULP.json",
+    "warning": null
+  },
+  {
+    "dataset": "monthly_average_prices_Metro_ULP",
+    "endpoint": "/report/monthly-average-prices",
+    "params": {
+      "region": "Metro",
+      "fuelType": "ULP",
+      "dateFrom": "Tue, 31 Dec 2024 16:00:00 GMT",
+      "dateTo": "Thu, 26 Mar 2026 15:59:59 GMT"
+    },
+    "status": "ok",
+    "rows": 15,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reports\\monthly_average_prices_Metro_ULP.json",
+    "warning": null
+  },
+  {
+    "dataset": "historical_daily_prices_flat",
+    "endpoint": "derived",
+    "params": {
+      "regions": [
+        "Metro"
+      ],
+      "fuels": [
+        "ULP"
+      ]
+    },
+    "status": "ok",
+    "rows": 31,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\flat\\historical_daily_prices.csv",
+    "warning": null
+  },
+  {
+    "dataset": "historical_monthly_prices_flat",
+    "endpoint": "derived",
+    "params": {
+      "regions": [
+        "Metro"
+      ],
+      "fuels": [
+        "ULP"
+      ],
+      "dateFrom": "Tue, 31 Dec 2024 16:00:00 GMT",
+      "dateTo": "Thu, 26 Mar 2026 15:59:59 GMT"
+    },
+    "status": "ok",
+    "rows": 15,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\flat\\historical_monthly_prices.csv",
+    "warning": null
+  },
+  {
+    "dataset": "weekly_retail_prices_index",
+    "endpoint": "/report/weekly-retail-prices",
+    "params": {},
+    "status": "ok",
+    "rows": 12,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reports\\weekly_retail_prices_index.json",
+    "warning": null
+  },
+  {
+    "dataset": "monthly_retail_prices_index",
+    "endpoint": "/report/monthly-retail-prices",
+    "params": {},
+    "status": "ok",
+    "rows": 303,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reports\\monthly_retail_prices_index.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_index",
+    "endpoint": "/report/terminal-gate-prices",
+    "params": {},
+    "status": "ok",
+    "rows": 26,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\reports\\terminal_gate_prices_index.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_centres",
+    "endpoint": "/terminalgate/centres",
+    "params": {},
+    "status": "ok",
+    "rows": 6,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\centres.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_5",
+    "endpoint": "/terminalgate/prices/5",
+    "params": {
+      "centreId": 5
+    },
+    "status": "ok",
+    "rows": 1,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_5.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_1",
+    "endpoint": "/terminalgate/prices/1",
+    "params": {
+      "centreId": 1
+    },
+    "status": "ok",
+    "rows": 3,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_1.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_2",
+    "endpoint": "/terminalgate/prices/2",
+    "params": {
+      "centreId": 2
+    },
+    "status": "ok",
+    "rows": 3,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_2.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_3",
+    "endpoint": "/terminalgate/prices/3",
+    "params": {
+      "centreId": 3
+    },
+    "status": "ok",
+    "rows": 2,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_3.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_6",
+    "endpoint": "/terminalgate/prices/6",
+    "params": {
+      "centreId": 6
+    },
+    "status": "ok",
+    "rows": 6,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_6.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_4",
+    "endpoint": "/terminalgate/prices/4",
+    "params": {
+      "centreId": 4
+    },
+    "status": "ok",
+    "rows": 4,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\raw\\terminal_gate\\prices_4.json",
+    "warning": null
+  },
+  {
+    "dataset": "terminal_gate_prices_flat",
+    "endpoint": "derived",
+    "params": {},
+    "status": "ok",
+    "rows": 44,
+    "output_path": "fuelwatch_runs\\20260326T005943Z\\flat\\terminal_gate_prices.csv",
+    "warning": null
+  }
+]
