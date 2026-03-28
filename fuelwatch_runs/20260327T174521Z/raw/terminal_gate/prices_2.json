@@ -1,0 +1,59 @@
+[
+  {
+    "id": 29,
+    "description": "Ampol Esperance",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 321.61,
+        "priceNext": 320.73,
+        "pricePrevious": 325.92
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "BP Esperance",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 250.89,
+        "priceNext": 246.98,
+        "pricePrevious": 253.57
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 260.89,
+        "priceNext": 256.98,
+        "pricePrevious": 263.57
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 304.16,
+        "priceNext": 305.53,
+        "pricePrevious": 303.86
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "description": "Viva Energy Esperance",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 316.07,
+        "priceNext": 314.08,
+        "pricePrevious": 308.73
+      }
+    ]
+  }
+]

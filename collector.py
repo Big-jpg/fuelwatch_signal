@@ -114,6 +114,32 @@ def load_csv_if_exists(path: Path) -> pd.DataFrame:
     return pd.DataFrame()
 
 
+def _nested_get(obj: Any, *path: str) -> Any:
+    current = obj
+    for key in path:
+        if not isinstance(current, dict):
+            return None
+        current = current.get(key)
+    return current
+
+
+def _coerce_float(value: Any) -> float | None:
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except Exception:
+        return None
+
+
+def _first_float(*values: Any) -> float | None:
+    for value in values:
+        coerced = _coerce_float(value)
+        if coerced is not None:
+            return coerced
+    return None
+
+
 def previous_run_roots(current_root: Path) -> list[Path]:
     parent = current_root.parent
     if not parent.exists():
@@ -294,6 +320,37 @@ def flatten_sites(payload: list[dict[str, Any]], fuel_type: str, run_id: str) ->
         delta_abs = None
         if price_today is not None and price_tomorrow is not None:
             delta_abs = round(float(price_tomorrow) - float(price_today), 3)
+
+        latitude = _first_float(
+            site.get("latitude"),
+            site.get("lat"),
+            _nested_get(site, "location", "latitude"),
+            _nested_get(site, "location", "lat"),
+            _nested_get(site, "coordinates", "latitude"),
+            _nested_get(site, "coordinates", "lat"),
+            address.get("latitude"),
+            address.get("lat"),
+            _nested_get(address, "coordinates", "latitude"),
+            _nested_get(address, "coordinates", "lat"),
+        )
+        longitude = _first_float(
+            site.get("longitude"),
+            site.get("lon"),
+            site.get("lng"),
+            _nested_get(site, "location", "longitude"),
+            _nested_get(site, "location", "lon"),
+            _nested_get(site, "location", "lng"),
+            _nested_get(site, "coordinates", "longitude"),
+            _nested_get(site, "coordinates", "lon"),
+            _nested_get(site, "coordinates", "lng"),
+            address.get("longitude"),
+            address.get("lon"),
+            address.get("lng"),
+            _nested_get(address, "coordinates", "longitude"),
+            _nested_get(address, "coordinates", "lon"),
+            _nested_get(address, "coordinates", "lng"),
+        )
+
         rows.append(
             {
                 "run_id": run_id,
@@ -305,6 +362,8 @@ def flatten_sites(payload: list[dict[str, Any]], fuel_type: str, run_id: str) ->
                 "suburb": address.get("location"),
                 "postcode": address.get("postCode"),
                 "state": address.get("state"),
+                "latitude": latitude,
+                "longitude": longitude,
                 "driveway_service": site.get("drivewayService"),
                 "is_closed_now": site.get("isClosedNow"),
                 "is_closed_all_day_tomorrow": site.get("isClosedAllDayTomorrow"),
@@ -328,9 +387,40 @@ def flatten_monthly_history(payload: list[dict[str, Any]], region: str, fuel_typ
     return [{"run_id": run_id, "region": row.get("region", region), "fuel_type": row.get("product", fuel_type), "month": row.get("month"), "average_price": row.get("average")} for row in payload]
 
 
-def flatten_terminal_gate_prices(payload: list[dict[str, Any]], run_id: str) -> list[dict[str, Any]]:
+def flatten_terminal_gate_prices(
+    payload: list[dict[str, Any]],
+    run_id: str,
+    centre_lookup: dict[Any, dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     rows = []
+    centre_lookup = centre_lookup or {}
     for centre in payload:
+        centre_id = centre.get("id")
+        meta = centre_lookup.get(centre_id, {})
+        latitude = _first_float(
+            centre.get("latitude"),
+            centre.get("lat"),
+            _nested_get(centre, "coordinates", "latitude"),
+            _nested_get(centre, "coordinates", "lat"),
+            meta.get("latitude"),
+            meta.get("lat"),
+            _nested_get(meta, "coordinates", "latitude"),
+            _nested_get(meta, "coordinates", "lat"),
+        )
+        longitude = _first_float(
+            centre.get("longitude"),
+            centre.get("lon"),
+            centre.get("lng"),
+            _nested_get(centre, "coordinates", "longitude"),
+            _nested_get(centre, "coordinates", "lon"),
+            _nested_get(centre, "coordinates", "lng"),
+            meta.get("longitude"),
+            meta.get("lon"),
+            meta.get("lng"),
+            _nested_get(meta, "coordinates", "longitude"),
+            _nested_get(meta, "coordinates", "lon"),
+            _nested_get(meta, "coordinates", "lng"),
+        )
         for model in centre.get("terminalGateProductModels") or []:
             current = model.get("priceCurrent")
             nxt = model.get("priceNext")
@@ -341,10 +431,12 @@ def flatten_terminal_gate_prices(payload: list[dict[str, Any]], run_id: str) -> 
             rows.append(
                 {
                     "run_id": run_id,
-                    "centre_id": centre.get("id"),
-                    "centre_name": centre.get("description"),
-                    "default_terminal_gate_price_change_time": centre.get("defaultTerminalGatePriceChangeTime"),
-                    "terminal_gate_price_change_time": centre.get("terminalGatePriceChangeTime"),
+                    "centre_id": centre_id,
+                    "centre_name": centre.get("description") or meta.get("description"),
+                    "centre_latitude": latitude,
+                    "centre_longitude": longitude,
+                    "default_terminal_gate_price_change_time": centre.get("defaultTerminalGatePriceChangeTime") or meta.get("defaultTerminalGatePriceChangeTime"),
+                    "terminal_gate_price_change_time": centre.get("terminalGatePriceChangeTime") or meta.get("terminalGatePriceChangeTime"),
                     "fuel_type": model.get("fuelType"),
                     "price_previous": previous,
                     "price_current": current,
@@ -521,6 +613,7 @@ def collect_terminal_gate(collector: Collector, run_id: str, progress_callback: 
         emit_progress(progress_callback, "Terminal gate", 1, 1, str(exc), "error")
         return
     rows = []
+    centre_lookup = {centre.get("id"): centre for centre in centres if centre.get("id") is not None}
     total = len(centres) + 1
     emit_progress(progress_callback, "Terminal gate", 1, total, f"Loaded {len(centres)} centres")
     current = 1
@@ -533,7 +626,7 @@ def collect_terminal_gate(collector: Collector, run_id: str, progress_callback: 
         try:
             payload = collector.client.terminal_gate_prices(cid)
             collector.write_json(f"terminal_gate_prices_{cid}", f"/terminalgate/prices/{cid}", payload, path, params)
-            rows.extend(flatten_terminal_gate_prices(payload, run_id))
+            rows.extend(flatten_terminal_gate_prices(payload, run_id, centre_lookup=centre_lookup))
         except Exception as exc:
             collector.record(f"terminal_gate_prices_{cid}", f"/terminalgate/prices/{cid}", params, "error", path, warning=str(exc))
         current += 1
