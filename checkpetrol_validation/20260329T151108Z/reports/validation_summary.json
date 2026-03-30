@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "availability_total_stations": 6542,
+    "availability_outage_count": 565,
+    "availability_outage_percent": 9,
+    "availability_outages_by_state_count": 8,
+    "availability_entries": 7,
+    "validated_at": "2026-03-29T15:11:22.549333+00:00",
+    "station_count": 6542,
+    "station_price_rows": 23686,
+    "query_context_rows": 39252,
+    "source_count": 4,
+    "state_count": 8,
+    "fuel_codes_observed": [
+      "DSL",
+      "E10",
+      "E85",
+      "LPG",
+      "P95",
+      "P98",
+      "PDSL",
+      "U91"
+    ],
+    "median_age_minutes": 2649.34,
+    "p90_age_minutes": 7205.29,
+    "outage_rate_pct": 8.64,
+    "stale_rate_pct": 0.0,
+    "fallback_rate_pct": 10.27,
+    "no_price_rate_pct": 0.64
+  },
+  "wa_concordance": {
+    "wa_concordance_status": "skipped_no_fuelwatch_root"
+  },
+  "issue_count": 11,
+  "error_count": 2,
+  "warning_count": 9,
+  "generated_at": "2026-03-29T15:11:22.696799+00:00"
+}

@@ -1,0 +1,402 @@
+{
+  "requested_fuel": "P98",
+  "total_rows": 6542,
+  "exact_fuel_rows": 3583,
+  "exact_fuel_pct": 54.77,
+  "has_requested_in_all_prices_rows": 3541,
+  "has_requested_in_all_prices_pct": 54.13,
+  "query_equals_all_prices_rows": 3535,
+  "query_equals_all_prices_pct": 54.04,
+  "missing_requested_in_all_prices_rows": 3001,
+  "missing_requested_in_all_prices_pct": 45.87,
+  "outage_count": 565,
+  "stale_count": 0,
+  "fallback_count": 2959,
+  "no_price_count": 42,
+  "fuel_type_distribution": {
+    "P98": 3583,
+    "U91": 1368,
+    "E10": 1293,
+    "DSL": 265,
+    "P95": 17,
+    "PDSL": 14,
+    "LPG": 2
+  },
+  "available_fuel_keys": {
+    "U91": 5828,
+    "DSL": 4132,
+    "P98": 3541,
+    "E10": 3083,
+    "P95": 3010,
+    "PDSL": 2529,
+    "LPG": 822,
+    "E85": 741
+  },
+  "missing_by_source": {
+    "petrolmate": 1396,
+    "wa_fuelwatch": 762,
+    "nsw_fuelcheck": 577,
+    "vic_servosaver": 266
+  },
+  "missing_by_state": {
+    "WA": 762,
+    "VIC": 695,
+    "QLD": 600,
+    "NSW": 422,
+    "TAS": 324,
+    "SA": 124,
+    "NT": 73,
+    "ACT": 1
+  },
+  "mismatch_examples": [
+    {
+      "id": "wa_chidlow_growers_mart_liquor_store_chidlow",
+      "name": "Chidlow Growers Mart Liquor Store",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2470,
+      "all_prices": {
+        "U91": 2470,
+        "DSL": 3100,
+        "E85": 2700
+      }
+    },
+    {
+      "id": "wa_burk_cannington_beckenham",
+      "name": "Burk Cannington",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2333,
+      "all_prices": {
+        "U91": 2333,
+        "P95": 2573,
+        "DSL": 2993,
+        "E85": 2773
+      }
+    },
+    {
+      "id": "wa_astron_quinns_rocks_quinns_rocks",
+      "name": "Astron Quinns Rocks",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2471,
+      "all_prices": {
+        "U91": 2471,
+        "P95": 2631,
+        "DSL": 3163,
+        "LPG": 1351
+      }
+    },
+    {
+      "id": "wa_burk_oakford_oakford",
+      "name": "Burk Oakford",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3093,
+      "all_prices": {
+        "U91": 2373,
+        "P95": 2593,
+        "DSL": 2993,
+        "E85": 2733,
+        "E10": 3093
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_kwinana_kwinana_beach",
+      "name": "Atlas Fuel Kwinana",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3049,
+      "all_prices": {
+        "U91": 2389,
+        "P95": 2539,
+        "DSL": 3019,
+        "E85": 2619,
+        "E10": 3049
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_golden_bay_golden_bay",
+      "name": "Atlas Fuel Golden Bay",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3079,
+      "all_prices": {
+        "U91": 2425,
+        "P95": 2569,
+        "DSL": 3049,
+        "E85": 2659,
+        "E10": 3079
+      }
+    },
+    {
+      "id": "wa_vibe_kwinana_opt_kwinana_beach",
+      "name": "Vibe Kwinana OPT",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2387,
+      "all_prices": {
+        "U91": 2387,
+        "DSL": 3017
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_forrestdale_forrestdale",
+      "name": "Atlas Fuel Forrestdale",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3049,
+      "all_prices": {
+        "U91": 2389,
+        "P95": 2539,
+        "DSL": 3019,
+        "E85": 2619,
+        "E10": 3049
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_forrestfield_forrestfield",
+      "name": "Atlas Fuel Forrestfield",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2429,
+      "all_prices": {
+        "U91": 2429,
+        "P95": 2579,
+        "DSL": 3039,
+        "E85": 2669
+      }
+    },
+    {
+      "id": "wa_costco_perth_airport_perth_airport",
+      "name": "Costco Perth Airport",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_costco_casuarina_casuarina",
+      "name": "Costco Casuarina",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_ascot_ascot",
+      "name": "Atlas Fuel Ascot",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3049,
+      "all_prices": {
+        "U91": 2389,
+        "P95": 2499,
+        "DSL": 3019,
+        "E85": 2579,
+        "E10": 3049
+      }
+    },
+    {
+      "id": "wa_vibe_broadwater_broadwater",
+      "name": "Vibe Broadwater",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2492,
+      "all_prices": {
+        "U91": 2492,
+        "DSL": 3053,
+        "E85": 2752
+      }
+    },
+    {
+      "id": "wa_vibe_port_kennedy_port_kennedy",
+      "name": "Vibe Port Kennedy",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2495,
+      "all_prices": {
+        "U91": 2495,
+        "P95": 2645,
+        "DSL": 3057,
+        "E85": 2755
+      }
+    },
+    {
+      "id": "wa_ugo_mundaring_mundaring",
+      "name": "UGO Mundaring",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2399,
+      "all_prices": {
+        "U91": 2399,
+        "P95": 2599,
+        "E85": 2659
+      }
+    },
+    {
+      "id": "wa_vibe_oakford_truckstop_oakford",
+      "name": "Vibe Oakford Truckstop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3129,
+      "all_prices": {
+        "U91": 2372,
+        "P95": 2522,
+        "DSL": 3059,
+        "E85": 2632,
+        "E10": 3129
+      }
+    },
+    {
+      "id": "wa_vibe_wanneroo_wanneroo",
+      "name": "Vibe Wanneroo",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3153,
+      "all_prices": {
+        "U91": 2493,
+        "DSL": 3093,
+        "E85": 2753,
+        "E10": 3153
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_jarrahdale_jarrahdale",
+      "name": "Atlas Fuel Jarrahdale",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2449,
+      "all_prices": {
+        "U91": 2449,
+        "DSL": 3039,
+        "E85": 2699
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_wanneroo_wanneroo",
+      "name": "Atlas Fuel Wanneroo",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2439,
+      "all_prices": {
+        "U91": 2439,
+        "P95": 2579,
+        "DSL": 3049,
+        "E85": 2649
+      }
+    },
+    {
+      "id": "wa_burk_alkimos_alkimos",
+      "name": "Burk Alkimos",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3133,
+      "all_prices": {
+        "U91": 2493,
+        "P95": 2633,
+        "DSL": 3073,
+        "E85": 2793,
+        "E10": 3133
+      }
+    },
+    {
+      "id": "wa_burk_camillo_camillo",
+      "name": "Burk Camillo",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2473,
+      "all_prices": {
+        "U91": 2473,
+        "DSL": 3053,
+        "E85": 2793
+      }
+    },
+    {
+      "id": "wa_burk_bassendean_bassendean",
+      "name": "Burk Bassendean",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2453,
+      "all_prices": {
+        "U91": 2453,
+        "P95": 2593,
+        "DSL": 3053,
+        "E85": 2793
+      }
+    },
+    {
+      "id": "wa_burk_landsdale_landsdale",
+      "name": "Burk Landsdale",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3133,
+      "all_prices": {
+        "U91": 2473,
+        "P95": 2633,
+        "DSL": 3053,
+        "E85": 2793,
+        "E10": 3133
+      }
+    },
+    {
+      "id": "wa_burk_malaga_malaga",
+      "name": "Burk Malaga",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2493,
+      "all_prices": {
+        "U91": 2493,
+        "P95": 2633,
+        "DSL": 3053,
+        "E85": 2793
+      }
+    },
+    {
+      "id": "wa_burk_broadwater_broadwater",
+      "name": "Burk Broadwater",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2493,
+      "all_prices": {
+        "U91": 2493,
+        "P95": 2593,
+        "DSL": 3093,
+        "E85": 2793
+      }
+    }
+  ]
+}

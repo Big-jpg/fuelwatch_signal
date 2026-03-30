@@ -1,0 +1,134 @@
+[
+  {
+    "dataset": "health",
+    "endpoint": "/health",
+    "params": {},
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\health.json",
+    "row_count": null,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "availability",
+    "endpoint": "/stats/availability",
+    "params": {},
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\availability.json",
+    "row_count": null,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_U91",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "U91"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_U91.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_DSL",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "DSL"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_DSL.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_LPG",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "LPG"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_LPG.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_E10",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "E10"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_E10.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_P95",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "P95"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_P95.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  },
+  {
+    "dataset": "stations_P98",
+    "endpoint": "/stations",
+    "params": {
+      "fuel": "P98"
+    },
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "output_path": "checkpetrol_validation\\20260329T151108Z\\raw\\stations_P98.json",
+    "row_count": 6542,
+    "warning_count": 0,
+    "warning_sample": [],
+    "notes": {
+      "collected_at": "2026-03-29T15:11:08.341033+00:00"
+    }
+  }
+]

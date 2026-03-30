@@ -1,0 +1,334 @@
+{
+  "requested_fuel": "U91",
+  "total_rows": 6542,
+  "exact_fuel_rows": 5870,
+  "exact_fuel_pct": 89.73,
+  "has_requested_in_all_prices_rows": 5828,
+  "has_requested_in_all_prices_pct": 89.09,
+  "query_equals_all_prices_rows": 5818,
+  "query_equals_all_prices_pct": 88.93,
+  "missing_requested_in_all_prices_rows": 714,
+  "missing_requested_in_all_prices_pct": 10.91,
+  "outage_count": 565,
+  "stale_count": 0,
+  "fallback_count": 672,
+  "no_price_count": 42,
+  "fuel_type_distribution": {
+    "U91": 5870,
+    "E10": 359,
+    "DSL": 265,
+    "P95": 24,
+    "PDSL": 14,
+    "P98": 8,
+    "LPG": 2
+  },
+  "available_fuel_keys": {
+    "U91": 5828,
+    "DSL": 4132,
+    "P98": 3541,
+    "E10": 3083,
+    "P95": 3010,
+    "PDSL": 2529,
+    "LPG": 822,
+    "E85": 741
+  },
+  "missing_by_source": {
+    "nsw_fuelcheck": 346,
+    "petrolmate": 203,
+    "vic_servosaver": 133,
+    "wa_fuelwatch": 32
+  },
+  "missing_by_state": {
+    "NSW": 316,
+    "VIC": 240,
+    "QLD": 64,
+    "WA": 32,
+    "TAS": 29,
+    "SA": 21,
+    "ACT": 7,
+    "NT": 5
+  },
+  "mismatch_examples": [
+    {
+      "id": "wa_vibe_henderson_henderson",
+      "name": "Vibe Henderson",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3257,
+      "all_prices": {
+        "P95": 2747,
+        "DSL": 3197,
+        "E85": 2857,
+        "E10": 3257
+      }
+    },
+    {
+      "id": "wa_hi_way_sales_service_1982_kojonup",
+      "name": "Hi-Way Sales & Service 1982",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "P95",
+      "price_cents": 2859,
+      "all_prices": {
+        "P95": 2859,
+        "DSL": 3399
+      }
+    },
+    {
+      "id": "wa_broome_discount_diesel_djugun",
+      "name": "Broome Discount Diesel",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3159,
+      "all_prices": {
+        "DSL": 3159
+      }
+    },
+    {
+      "id": "wa_bp_geraldton_opt_west_end",
+      "name": "BP Geraldton OPT",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3079,
+      "all_prices": {
+        "DSL": 3079
+      }
+    },
+    {
+      "id": "wa_bp_kununurra_depot_recharge_petroleum_kununurra",
+      "name": "BP Kununurra Depot (Recharge Petroleum)",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3079,
+      "all_prices": {
+        "DSL": 3079
+      }
+    },
+    {
+      "id": "wa_bp_west_kalgoorlie_west_kalgoorlie",
+      "name": "BP West Kalgoorlie",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3109,
+      "all_prices": {
+        "DSL": 3109
+      }
+    },
+    {
+      "id": "wa_bp_canning_vale_opt_canning_vale",
+      "name": "BP Canning Vale OPT",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3159,
+      "all_prices": {
+        "DSL": 3159
+      }
+    },
+    {
+      "id": "wa_bp_wedgefield_opt_wedgefield",
+      "name": "BP Wedgefield OPT",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3199,
+      "all_prices": {
+        "DSL": 3199
+      }
+    },
+    {
+      "id": "wa_bp_picton_truckstop_picton",
+      "name": "BP Picton Truckstop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3149,
+      "all_prices": {
+        "DSL": 3109,
+        "E10": 3149
+      }
+    },
+    {
+      "id": "wa_bp_broome_depot_recharge_petroleum_minyirr",
+      "name": "BP Broome Depot (Recharge Petroleum)",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3199,
+      "all_prices": {
+        "DSL": 3199
+      }
+    },
+    {
+      "id": "wa_ior_albany_willyung",
+      "name": "IOR Albany",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3369,
+      "all_prices": {
+        "DSL": 3369
+      }
+    },
+    {
+      "id": "wa_bp_karratha_depot_recharge_petroleum_karratha_industrial_estate",
+      "name": "BP Karratha Depot (Recharge Petroleum)",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3199,
+      "all_prices": {
+        "DSL": 3199
+      }
+    },
+    {
+      "id": "wa_dunning_s_broome_depot_minyirr",
+      "name": "Dunning's Broome Depot",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3195,
+      "all_prices": {
+        "DSL": 3195
+      }
+    },
+    {
+      "id": "wa_dunning_s_wedgefield_wedgefield",
+      "name": "Dunning's Wedgefield",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3199,
+      "all_prices": {
+        "DSL": 3199
+      }
+    },
+    {
+      "id": "wa_refuel_australia_deepdale_meru_meru",
+      "name": "Refuel Australia - Deepdale Meru",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3178,
+      "all_prices": {
+        "DSL": 3178
+      }
+    },
+    {
+      "id": "wa_wa_fuel_kwinana_beach_kwinana_beach",
+      "name": "WA Fuel Kwinana Beach",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3229,
+      "all_prices": {
+        "DSL": 3229
+      }
+    },
+    {
+      "id": "wa_wa_fuel_south_guildford_south_guildford",
+      "name": "WA Fuel South Guildford",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3229,
+      "all_prices": {
+        "DSL": 3229
+      }
+    },
+    {
+      "id": "wa_bp_derby_depot_recharge_petroleum_derby",
+      "name": "BP Derby Depot (Recharge Petroleum)",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3299,
+      "all_prices": {
+        "DSL": 3299
+      }
+    },
+    {
+      "id": "wa_ior_kununurra_kununurra",
+      "name": "IOR Kununurra",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3439,
+      "all_prices": {
+        "DSL": 3439
+      }
+    },
+    {
+      "id": "wa_wa_fuel_manjimup_manjimup",
+      "name": "WA Fuel Manjimup",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3259,
+      "all_prices": {
+        "DSL": 3259
+      }
+    },
+    {
+      "id": "wa_ampol_karratha_diesel_stop_karratha_industrial_estate",
+      "name": "Ampol Karratha Diesel Stop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3259,
+      "all_prices": {
+        "DSL": 3259
+      }
+    },
+    {
+      "id": "wa_ampol_newman_diesel_stop_newman",
+      "name": "Ampol Newman Diesel Stop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3279,
+      "all_prices": {
+        "DSL": 3249,
+        "E10": 3279
+      }
+    },
+    {
+      "id": "wa_ampol_fitzroy_crossing_diesel_stop_fitzroy_crossing",
+      "name": "Ampol Fitzroy Crossing Diesel Stop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3349,
+      "all_prices": {
+        "DSL": 3349
+      }
+    },
+    {
+      "id": "wa_wa_fuel_karratha_karratha_industrial_estate",
+      "name": "WA Fuel Karratha",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3259,
+      "all_prices": {
+        "DSL": 3259
+      }
+    },
+    {
+      "id": "wa_refuel_australia_carnarvon_greys_plain",
+      "name": "Refuel Australia - Carnarvon",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "DSL",
+      "price_cents": 3268,
+      "all_prices": {
+        "DSL": 3268
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "health",
+    "path": "/health",
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "row_count": null,
+    "warnings": [],
+    "sample_keys": [
+      "fetchers",
+      "station_counts",
+      "status",
+      "uptime"
+    ]
+  },
+  {
+    "name": "availability",
+    "path": "/stats/availability",
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "row_count": null,
+    "warnings": [],
+    "sample_keys": [
+      "availability",
+      "outage_count",
+      "outage_percent",
+      "outages_by_state",
+      "total_stations"
+    ]
+  },
+  {
+    "name": "stations_U91",
+    "path": "/stations?fuel=U91",
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "row_count": 6542,
+    "warnings": [
+      "11 sampled rows flagged has_outage=true"
+    ],
+    "sample_keys": [
+      "address",
+      "all_prices",
+      "brand",
+      "fuel_type",
+      "has_outage",
+      "id",
+      "is_fallback",
+      "is_stale",
+      "name",
+      "no_price",
+      "outage_fuels",
+      "postcode",
+      "price_cents",
+      "source",
+      "state",
+      "suburb",
+      "updated_at"
+    ]
+  },
+  {
+    "name": "stations_DSL",
+    "path": "/stations?fuel=DSL",
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "row_count": 6542,
+    "warnings": [
+      "201 sampled rows had mismatched fuel_type",
+      "201 sampled rows missing all_prices[DSL]",
+      "11 sampled rows flagged has_outage=true"
+    ],
+    "sample_keys": [
+      "address",
+      "all_prices",
+      "brand",
+      "fuel_type",
+      "has_outage",
+      "id",
+      "is_fallback",
+      "is_stale",
+      "name",
+      "no_price",
+      "outage_fuels",
+      "postcode",
+      "price_cents",
+      "source",
+      "state",
+      "suburb",
+      "updated_at"
+    ]
+  },
+  {
+    "name": "stations_U98",
+    "path": "/stations?fuel=U98",
+    "ok": true,
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "row_count": 0,
+    "warnings": [
+      "No station features returned"
+    ],
+    "sample_keys": []
+  }
+]

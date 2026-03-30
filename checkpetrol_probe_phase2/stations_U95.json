@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "station_count": 0,
+    "fuel_type": "U95",
+    "price_stats": {}
+  },
+  "features": []
+}

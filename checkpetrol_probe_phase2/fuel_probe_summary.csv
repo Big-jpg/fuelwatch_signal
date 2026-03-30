@@ -1,0 +1,12 @@
+fuel,total_rows,exact_fuel_pct,has_requested_in_all_prices_pct,query_equals_all_prices_pct,missing_requested_in_all_prices_rows
+U91,6542,89.73,89.09,88.93,714.0
+DSL,6542,63.8,63.16,63.15,2410.0
+LPG,6542,13.21,12.56,12.55,5720.0
+E10,6542,47.77,47.13,47.0,3459.0
+E85,0,,,,
+U95,0,,,,
+U98,0,,,,
+98,0,,,,
+P95,6542,46.65,46.01,45.98,3532.0
+P98,6542,54.77,54.13,54.04,3001.0
+98RON,0,,,,

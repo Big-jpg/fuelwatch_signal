@@ -1,0 +1,393 @@
+{
+  "requested_fuel": "DSL",
+  "total_rows": 6542,
+  "exact_fuel_rows": 4174,
+  "exact_fuel_pct": 63.8,
+  "has_requested_in_all_prices_rows": 4132,
+  "has_requested_in_all_prices_pct": 63.16,
+  "query_equals_all_prices_rows": 4131,
+  "query_equals_all_prices_pct": 63.15,
+  "missing_requested_in_all_prices_rows": 2410,
+  "missing_requested_in_all_prices_pct": 36.84,
+  "outage_count": 565,
+  "stale_count": 0,
+  "fallback_count": 2368,
+  "no_price_count": 42,
+  "fuel_type_distribution": {
+    "DSL": 4174,
+    "E10": 1451,
+    "U91": 889,
+    "PDSL": 14,
+    "P95": 8,
+    "P98": 4,
+    "LPG": 2
+  },
+  "available_fuel_keys": {
+    "U91": 5828,
+    "DSL": 4132,
+    "P98": 3541,
+    "E10": 3083,
+    "P95": 3010,
+    "PDSL": 2529,
+    "LPG": 822,
+    "E85": 741
+  },
+  "missing_by_source": {
+    "nsw_fuelcheck": 1180,
+    "vic_servosaver": 746,
+    "wa_fuelwatch": 313,
+    "petrolmate": 171
+  },
+  "missing_by_state": {
+    "NSW": 1053,
+    "VIC": 846,
+    "WA": 313,
+    "TAS": 88,
+    "ACT": 44,
+    "QLD": 43,
+    "SA": 23
+  },
+  "mismatch_examples": [
+    {
+      "id": "wa_costco_perth_airport_perth_airport",
+      "name": "Costco Perth Airport",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_costco_casuarina_casuarina",
+      "name": "Costco Casuarina",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_ugo_mundaring_mundaring",
+      "name": "UGO Mundaring",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2399,
+      "all_prices": {
+        "U91": 2399,
+        "P95": 2599,
+        "E85": 2659
+      }
+    },
+    {
+      "id": "wa_smart_mart_pure_convenience_flores_rd_wonthella",
+      "name": "Smart Mart Pure Convenience - Flores Rd",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3159,
+      "all_prices": {
+        "U91": 2529,
+        "E10": 3159
+      }
+    },
+    {
+      "id": "wa_eg_ampol_osborne_park_osborne_park",
+      "name": "EG Ampol Osborne Park",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3199,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2779,
+        "E85": 2859,
+        "E10": 3199
+      }
+    },
+    {
+      "id": "wa_eg_ampol_mirrabooka_mirrabooka",
+      "name": "EG Ampol Mirrabooka",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3219,
+      "all_prices": {
+        "U91": 2559,
+        "P95": 2739,
+        "E85": 2819,
+        "E10": 3219
+      }
+    },
+    {
+      "id": "wa_caltex_kwinana_truck_stop_kwinana_beach",
+      "name": "Caltex Kwinana Truck Stop",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2859,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_caltex_edgewater_edgewater",
+      "name": "Caltex Edgewater",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2859,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_haynes_armadale",
+      "name": "7-Eleven Haynes",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_middle_swan_middle_swan",
+      "name": "7-Eleven Middle Swan",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2599,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829
+      }
+    },
+    {
+      "id": "wa_7_eleven_southern_river_southern_river",
+      "name": "7-Eleven Southern River",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_kelmscott_central_kelmscott",
+      "name": "7-Eleven Kelmscott Central",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_wattle_grove_wattle_grove",
+      "name": "7-Eleven Wattle Grove",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2599,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829
+      }
+    },
+    {
+      "id": "wa_7_eleven_queens_park_queens_park",
+      "name": "7-Eleven Queens Park",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2549,
+        "P95": 2699,
+        "E85": 2779,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_thornlie_thornlie",
+      "name": "7-Eleven Thornlie",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_7_eleven_booragoon_booragoon",
+      "name": "7-Eleven Booragoon",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3239,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829,
+        "E10": 3239
+      }
+    },
+    {
+      "id": "wa_ampol_foodary_busselton_busselton",
+      "name": "Ampol Foodary Busselton",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3209,
+      "all_prices": {
+        "U91": 2529,
+        "P95": 2689,
+        "E85": 2779,
+        "E10": 3209
+      }
+    },
+    {
+      "id": "wa_ampol_foodary_bunbury_bunbury",
+      "name": "Ampol Foodary Bunbury",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3189,
+      "all_prices": {
+        "U91": 2499,
+        "P95": 2659,
+        "E85": 2749,
+        "E10": 3189
+      }
+    },
+    {
+      "id": "wa_7_eleven_bentley_bentley",
+      "name": "7-Eleven Bentley",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2599,
+      "all_prices": {
+        "U91": 2599,
+        "P95": 2749,
+        "E85": 2829
+      }
+    },
+    {
+      "id": "wa_bp_ballajura_ballajura",
+      "name": "BP Ballajura",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3199,
+      "all_prices": {
+        "U91": 2539,
+        "P95": 2699,
+        "E85": 2789,
+        "E10": 3199
+      }
+    },
+    {
+      "id": "wa_bp_port_kennedy_port_kennedy",
+      "name": "BP Port Kennedy",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3159,
+      "all_prices": {
+        "U91": 2539,
+        "P95": 2699,
+        "E85": 2789,
+        "E10": 3159
+      }
+    },
+    {
+      "id": "wa_bp_wonthella_service_station_webberton",
+      "name": "BP Wonthella Service Station",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3159,
+      "all_prices": {
+        "U91": 2539,
+        "E85": 2769,
+        "E10": 3159
+      }
+    },
+    {
+      "id": "wa_bp_woodbridge_woodbridge",
+      "name": "BP Woodbridge",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3199,
+      "all_prices": {
+        "U91": 2539,
+        "P95": 2699,
+        "LPG": 1439,
+        "E85": 2789,
+        "E10": 3199
+      }
+    },
+    {
+      "id": "wa_bp_greenwood_north_greenwood",
+      "name": "BP Greenwood North",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3199,
+      "all_prices": {
+        "U91": 2539,
+        "P95": 2699,
+        "E85": 2789,
+        "E10": 3199
+      }
+    },
+    {
+      "id": "wa_bp_attadale_attadale",
+      "name": "BP Attadale",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3129,
+      "all_prices": {
+        "U91": 2559,
+        "E85": 2769,
+        "E10": 3129
+      }
+    }
+  ]
+}

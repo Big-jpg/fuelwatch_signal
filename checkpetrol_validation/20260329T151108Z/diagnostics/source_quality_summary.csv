@@ -1,0 +1,5 @@
+source,stations,outage_rate,stale_rate,fallback_rate,no_price_rate,median_age_minutes
+nsw_fuelcheck,2683,9.5,0.0,12.9,0.0,3983.1258222166666
+petrolmate,1396,1.43,0.0,14.54,0.0,1613.3758222166666
+vic_servosaver,1701,16.4,0.0,5.35,2.47,2633.2258222166665
+wa_fuelwatch,762,1.44,0.0,4.2,0.0,1391.3758222166666

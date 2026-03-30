@@ -1,0 +1,375 @@
+{
+  "requested_fuel": "P95",
+  "total_rows": 6542,
+  "exact_fuel_rows": 3052,
+  "exact_fuel_pct": 46.65,
+  "has_requested_in_all_prices_rows": 3010,
+  "has_requested_in_all_prices_pct": 46.01,
+  "query_equals_all_prices_rows": 3008,
+  "query_equals_all_prices_pct": 45.98,
+  "missing_requested_in_all_prices_rows": 3532,
+  "missing_requested_in_all_prices_pct": 53.99,
+  "outage_count": 565,
+  "stale_count": 0,
+  "fallback_count": 3490,
+  "no_price_count": 42,
+  "fuel_type_distribution": {
+    "P95": 3052,
+    "U91": 1604,
+    "E10": 1597,
+    "DSL": 265,
+    "PDSL": 14,
+    "P98": 8,
+    "LPG": 2
+  },
+  "available_fuel_keys": {
+    "U91": 5828,
+    "DSL": 4132,
+    "P98": 3541,
+    "E10": 3083,
+    "P95": 3010,
+    "PDSL": 2529,
+    "LPG": 822,
+    "E85": 741
+  },
+  "missing_by_source": {
+    "petrolmate": 1396,
+    "nsw_fuelcheck": 1161,
+    "vic_servosaver": 710,
+    "wa_fuelwatch": 265
+  },
+  "missing_by_state": {
+    "VIC": 1139,
+    "NSW": 1004,
+    "QLD": 600,
+    "TAS": 298,
+    "WA": 265,
+    "SA": 124,
+    "NT": 73,
+    "ACT": 29
+  },
+  "mismatch_examples": [
+    {
+      "id": "wa_chidlow_growers_mart_liquor_store_chidlow",
+      "name": "Chidlow Growers Mart Liquor Store",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2470,
+      "all_prices": {
+        "U91": 2470,
+        "DSL": 3100,
+        "E85": 2700
+      }
+    },
+    {
+      "id": "wa_vibe_kwinana_opt_kwinana_beach",
+      "name": "Vibe Kwinana OPT",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2387,
+      "all_prices": {
+        "U91": 2387,
+        "DSL": 3017
+      }
+    },
+    {
+      "id": "wa_costco_perth_airport_perth_airport",
+      "name": "Costco Perth Airport",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_costco_casuarina_casuarina",
+      "name": "Costco Casuarina",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3127,
+      "all_prices": {
+        "U91": 2467,
+        "E85": 2647,
+        "E10": 3127
+      }
+    },
+    {
+      "id": "wa_vibe_broadwater_broadwater",
+      "name": "Vibe Broadwater",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2492,
+      "all_prices": {
+        "U91": 2492,
+        "DSL": 3053,
+        "E85": 2752
+      }
+    },
+    {
+      "id": "wa_vibe_wanneroo_wanneroo",
+      "name": "Vibe Wanneroo",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3153,
+      "all_prices": {
+        "U91": 2493,
+        "DSL": 3093,
+        "E85": 2753,
+        "E10": 3153
+      }
+    },
+    {
+      "id": "wa_atlas_fuel_jarrahdale_jarrahdale",
+      "name": "Atlas Fuel Jarrahdale",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2449,
+      "all_prices": {
+        "U91": 2449,
+        "DSL": 3039,
+        "E85": 2699
+      }
+    },
+    {
+      "id": "wa_burk_camillo_camillo",
+      "name": "Burk Camillo",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2473,
+      "all_prices": {
+        "U91": 2473,
+        "DSL": 3053,
+        "E85": 2793
+      }
+    },
+    {
+      "id": "wa_burk_mount_lawley_mount_lawley",
+      "name": "Burk Mount Lawley",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2493,
+      "all_prices": {
+        "U91": 2493,
+        "DSL": 3053,
+        "E85": 2793
+      }
+    },
+    {
+      "id": "wa_smart_mart_pure_convenience_flores_rd_wonthella",
+      "name": "Smart Mart Pure Convenience - Flores Rd",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3159,
+      "all_prices": {
+        "U91": 2529,
+        "E10": 3159
+      }
+    },
+    {
+      "id": "wa_dunning_s_newman_newman",
+      "name": "Dunning's Newman",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2465,
+      "all_prices": {
+        "U91": 2465,
+        "DSL": 3335
+      }
+    },
+    {
+      "id": "wa_dunning_s_picton_picton",
+      "name": "Dunning's Picton",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2535,
+      "all_prices": {
+        "U91": 2535,
+        "DSL": 3165,
+        "E85": 2735
+      }
+    },
+    {
+      "id": "wa_burk_williams_williams",
+      "name": "Burk Williams",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2519,
+      "all_prices": {
+        "U91": 2519,
+        "DSL": 3039,
+        "E85": 2819
+      }
+    },
+    {
+      "id": "wa_s_bend_caravan_park_south_greenough",
+      "name": "S-Bend Caravan Park",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2480,
+      "all_prices": {
+        "U91": 2480,
+        "DSL": 3290
+      }
+    },
+    {
+      "id": "wa_vibe_mt_helena_mount_helena",
+      "name": "Vibe Mt Helena",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2497,
+      "all_prices": {
+        "U91": 2497,
+        "DSL": 3097,
+        "E85": 2757
+      }
+    },
+    {
+      "id": "wa_vibe_pinjarra_pinjarra",
+      "name": "Vibe Pinjarra",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2533,
+      "all_prices": {
+        "U91": 2533,
+        "DSL": 3093
+      }
+    },
+    {
+      "id": "wa_vibe_charles_st_north_perth",
+      "name": "Vibe Charles St",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2527,
+      "all_prices": {
+        "U91": 2527,
+        "DSL": 3157,
+        "E85": 2787
+      }
+    },
+    {
+      "id": "wa_vibe_beechboro_beechboro",
+      "name": "Vibe Beechboro",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2485,
+      "all_prices": {
+        "U91": 2485,
+        "DSL": 3067,
+        "E85": 2745
+      }
+    },
+    {
+      "id": "wa_vibe_morley_morley",
+      "name": "Vibe Morley",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "E10",
+      "price_cents": 3217,
+      "all_prices": {
+        "U91": 2495,
+        "DSL": 3157,
+        "E85": 2755,
+        "E10": 3217
+      }
+    },
+    {
+      "id": "wa_route_94_bakers_hill_bakers_hill",
+      "name": "Route 94 Bakers Hill",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2575,
+      "all_prices": {
+        "U91": 2575,
+        "DSL": 3095,
+        "E85": 2835
+      }
+    },
+    {
+      "id": "wa_petro_fuels_calista_calista",
+      "name": "Petro Fuels Calista",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2499,
+      "all_prices": {
+        "U91": 2499,
+        "DSL": 3049,
+        "E85": 2797
+      }
+    },
+    {
+      "id": "wa_petro_fuels_bassendean_bassendean",
+      "name": "Petro Fuels Bassendean",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2579,
+      "all_prices": {
+        "U91": 2579,
+        "DSL": 3095,
+        "E85": 2799
+      }
+    },
+    {
+      "id": "wa_dunning_s_karratha_karratha",
+      "name": "Dunning's Karratha",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2595,
+      "all_prices": {
+        "U91": 2595,
+        "DSL": 3155,
+        "E85": 2795
+      }
+    },
+    {
+      "id": "wa_vibe_byford_byford",
+      "name": "Vibe Byford",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2439,
+      "all_prices": {
+        "U91": 2439,
+        "DSL": 3097,
+        "E85": 2699
+      }
+    },
+    {
+      "id": "wa_vibe_toodyay_rd_gidgegannup",
+      "name": "Vibe Toodyay Rd",
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "fuel_type": "U91",
+      "price_cents": 2497,
+      "all_prices": {
+        "U91": 2497,
+        "DSL": 3117,
+        "E85": 2757
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+severity,issue_type,dataset,entity_id,details,fuel_code,bad_rows
+error,invalid_updated_at,stations_snapshot,,1095 rows have invalid updated_at timestamps,,
+warning,very_old_timestamp,stations_snapshot,,156 rows are older than 7 days,,
+warning,non_stale_but_old,stations_snapshot,,1174 rows not marked stale but older than 3 days,,
+warning,price_out_of_range,station_prices_snapshot,U91,5828 U91 rows outside plausible range 80.0-400.0 c/L,U91,5828.0
+warning,price_out_of_range,station_prices_snapshot,DSL,4132 DSL rows outside plausible range 80.0-450.0 c/L,DSL,4132.0
+warning,price_out_of_range,station_prices_snapshot,P95,3010 P95 rows outside plausible range 80.0-450.0 c/L,P95,3010.0
+warning,price_out_of_range,station_prices_snapshot,P98,3541 P98 rows outside plausible range 80.0-450.0 c/L,P98,3541.0
+warning,price_out_of_range,station_prices_snapshot,E10,3083 E10 rows outside plausible range 80.0-400.0 c/L,E10,3083.0
+warning,price_out_of_range,station_prices_snapshot,LPG,822 LPG rows outside plausible range 20.0-250.0 c/L,LPG,822.0
+error,query_price_mismatch,station_query_context,,28 query rows where price_cents != all_prices[query_fuel],,
+warning,query_fuel_missing_in_all_prices,station_query_context,,18836 query rows where query_fuel was absent from all_prices,,
