@@ -97,6 +97,30 @@ def safe_float(value: Any) -> float | None:
     except Exception:
         return None
 
+#
+# Price normalisation helper
+#
+# CheckPetrol sometimes reports price values in tenths of a cent (e.g.
+# ``3029`` representing ``302.9 c/L``).  To ensure prices are
+# comparable with other data sources (which are typically in cents per
+# litre), this helper scales down any unusually large values.  Values
+# above 1000 are divided by 10 and rounded to three decimal places.
+# Otherwise the value is returned unchanged.  Non‑numeric inputs
+# produce ``None``.
+def normalize_price_cpl(value: Any) -> float | None:
+    """Normalise a price value to cents per litre.
+
+    Values above 1000 are assumed to be scaled by 10 (tenths of a
+    cent) and are divided accordingly.  Missing or non‑numeric inputs
+    return ``None``.
+    """
+    v = safe_float(value)
+    if v is None:
+        return None
+    if v > 1000:
+        return round(v / 10.0, 3)
+    return v
+
 
 def parse_timestamp(value: Any) -> datetime | None:
     if not isinstance(value, str) or not value.strip():
@@ -215,7 +239,10 @@ def flatten_station_features(payload: dict[str, Any], query_fuel: str, collected
                 "postcode": props.get("postcode"),
                 "address": props.get("address"),
                 "fuel_type": props.get("fuel_type"),
-                "price_cents": safe_float(props.get("price_cents")),
+                # Use normalised price to ensure tenths-of-a-cent values are
+                # scaled correctly.  Keep the column name ``price_cents`` for
+                # backward compatibility even though the unit is cents per litre.
+                "price_cents": normalize_price_cpl(props.get("price_cents")),
                 "has_outage": bool(props.get("has_outage")),
                 "is_fallback": bool(props.get("is_fallback")),
                 "is_stale": bool(props.get("is_stale")),
@@ -238,7 +265,9 @@ def flatten_station_features(payload: dict[str, Any], query_fuel: str, collected
                         "station_id": station_id,
                         "fuel_code": fuel_code,
                         "canonical_fuel_code": CHECKPETROL_TO_CANONICAL.get(fuel_code),
-                        "price_cents": safe_float(price),
+                        # Apply the same normalisation to the per‑fuel prices.  Use
+                        # the original key ``price_cents`` for compatibility.
+                        "price_cents": normalize_price_cpl(price),
                         "is_primary_for_query": fuel_code == query_fuel,
                         "collected_at": collected_at_iso,
                         "updated_at": updated_at.isoformat() if updated_at else None,

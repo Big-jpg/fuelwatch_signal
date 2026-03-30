@@ -131,6 +131,35 @@ def _coerce_float(value: Any) -> float | None:
     except Exception:
         return None
 
+#
+# Price normalization helper
+#
+# The upstream FuelWatch API and other external sources sometimes provide
+# prices in an unexpected unit – e.g. tenths of a cent.  In most cases
+# prices are reported in cents per litre, so values larger than 1000 are
+# likely scaled by a factor of 10.  This helper normalises any numeric
+# price to a sensible range by downscaling unusually large values.  If a
+# value is greater than 1000 it is divided by 10 and rounded to three
+# decimal places.  Otherwise the value is returned unchanged.  When
+# provided with ``None`` or a non‐numeric value the result is also
+# ``None``.
+def normalize_price_cpl(value: Any) -> float | None:
+    """Normalise a price value to cents per litre.
+
+    Values above 1000 are assumed to be scaled by 10 (tenths of a cent)
+    and are divided accordingly.  Missing or non‑numeric inputs are
+    returned as ``None``.
+    """
+    v = _coerce_float(value)
+    if v is None:
+        return None
+    # If the value is implausibly large assume it is in tenths of a cent
+    # and convert to cents by dividing by 10.  For example ``3029``
+    # becomes ``302.9``.
+    if v > 1000:
+        return round(v / 10.0, 3)
+    return v
+
 
 def _first_float(*values: Any) -> float | None:
     for value in values:
@@ -315,11 +344,16 @@ def flatten_sites(payload: list[dict[str, Any]], fuel_type: str, run_id: str) ->
     for site in payload:
         address = site.get("address") or {}
         product = site.get("product") or {}
-        price_today = product.get("priceToday")
-        price_tomorrow = product.get("priceTomorrow")
+        # Normalise price values to cents per litre.  Upstream values
+        # occasionally arrive in tenths of a cent (e.g. 3029 -> 302.9).  Use
+        # the helper to ensure consistent units across all data sources.
+        price_today_raw = product.get("priceToday")
+        price_tomorrow_raw = product.get("priceTomorrow")
+        price_today = normalize_price_cpl(price_today_raw)
+        price_tomorrow = normalize_price_cpl(price_tomorrow_raw)
         delta_abs = None
         if price_today is not None and price_tomorrow is not None:
-            delta_abs = round(float(price_tomorrow) - float(price_today), 3)
+            delta_abs = round(price_tomorrow - price_today, 3)
 
         latitude = _first_float(
             site.get("latitude"),
@@ -371,6 +405,7 @@ def flatten_sites(payload: list[dict[str, Any]], fuel_type: str, run_id: str) ->
                 "membership_required": site.get("membershipRequired"),
                 "operates_24_7": site.get("operates247"),
                 "product_short_name": product.get("shortName"),
+                # Normalised prices
                 "price_today": price_today,
                 "price_tomorrow": price_tomorrow,
                 "delta_abs": delta_abs,

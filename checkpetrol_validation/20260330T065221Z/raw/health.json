@@ -1,0 +1,98 @@
+{
+  "status": "ok",
+  "uptime": 934.317988894,
+  "fetchers": [
+    {
+      "name": "NSW",
+      "source": "nsw_fuelcheck",
+      "lastFetchAt": "2026-03-30T06:36:52.444Z",
+      "lastError": null,
+      "stationCount": 2595
+    },
+    {
+      "name": "VIC",
+      "source": "vic_servosaver",
+      "lastFetchAt": "2026-03-30T06:36:51.527Z",
+      "lastError": null,
+      "stationCount": 1699
+    },
+    {
+      "name": "WA",
+      "source": "wa_fuelwatch",
+      "lastFetchAt": "2026-03-30T06:36:49.469Z",
+      "lastError": null,
+      "stationCount": 771
+    },
+    {
+      "name": "QLD-Live",
+      "source": "qld_live",
+      "lastFetchAt": "2026-03-30T06:45:02.826Z",
+      "lastError": null,
+      "stationCount": 1783
+    },
+    {
+      "name": "Petrolmate",
+      "source": "petrolmate",
+      "lastFetchAt": "2026-03-30T06:39:16.087Z",
+      "lastError": null,
+      "stationCount": 784
+    }
+  ],
+  "station_counts": [
+    {
+      "state": "ACT",
+      "source": "nsw_fuelcheck",
+      "count": 64
+    },
+    {
+      "state": "NSW",
+      "source": "nsw_fuelcheck",
+      "count": 2290
+    },
+    {
+      "state": "NT",
+      "source": "petrolmate",
+      "count": 73
+    },
+    {
+      "state": "QLD",
+      "source": "petrolmate",
+      "count": 601
+    },
+    {
+      "state": "QLD",
+      "source": "qld_live",
+      "count": 1783
+    },
+    {
+      "state": "SA",
+      "source": "petrolmate",
+      "count": 135
+    },
+    {
+      "state": "TAS",
+      "source": "nsw_fuelcheck",
+      "count": 334
+    },
+    {
+      "state": "TAS",
+      "source": "petrolmate",
+      "count": 170
+    },
+    {
+      "state": "VIC",
+      "source": "petrolmate",
+      "count": 430
+    },
+    {
+      "state": "VIC",
+      "source": "vic_servosaver",
+      "count": 1701
+    },
+    {
+      "state": "WA",
+      "source": "wa_fuelwatch",
+      "count": 830
+    }
+  ]
+}

@@ -810,13 +810,14 @@ snapshot_df = load_snapshot_history(str(root), use_cached_effective=use_cached_e
 if not snapshot_df.empty:
     snapshot_df = attach_nearest_nodes(snapshot_df, nodes_df)
 
-summary_tab, signals_tab, current_tab, historical_tab, terminal_tab, archive_tab = st.tabs([
+summary_tab, signals_tab, current_tab, historical_tab, terminal_tab, archive_tab, clustering_tab = st.tabs([
     "Summary",
     "Signals",
     "Current prices",
     "Historical",
     "Terminal gate",
     "Archives",
+    "Clustering",
 ])
 
 with summary_tab:
@@ -1411,3 +1412,185 @@ with archive_tab:
         if files:
             st.markdown("**Downloaded archives**")
             st.dataframe(pd.DataFrame({"file": [str(p.relative_to(root)) for p in files]}), use_container_width=True, height=260)
+
+    # -----------------------------------------------------------------------------
+    # Clustering tab
+    #
+    # This view exposes a simple clustering interface that allows users to select
+    # between the current run data and the snapshot history, choose a fuel type,
+    # pick numeric features to cluster on, select an algorithm (KMeans or
+    # agglomerative/ward) and the number of clusters, and then visualise the
+    # resulting clusters.  Clusters are visualised via a scatter plot using
+    # either the raw features (for two‑dimensional selections) or the first two
+    # principal components (when more than two features are chosen).  A small
+    # summary table indicates the number of sites per cluster and the median
+    # price and delta statistics.  Note that clustering is only available once
+    # data has been collected.
+
+with clustering_tab:
+    st.subheader("Clustering analysis")
+    # Ensure data is available before offering clustering options
+    if current_df.empty:
+        st.info("Collect latest data to perform clustering.")
+    else:
+        # Choose which dataset to cluster: current run or snapshot history
+        dataset_option = st.selectbox(
+            "Dataset",
+            ["Current run", "Snapshot history"],
+            help="Use the current run data or cluster across the most recent snapshot runs."
+        )
+        # Determine available fuels
+        fuel_options = sorted(current_df["product_short_name"].dropna().unique().tolist())
+        selected_fuel = st.selectbox("Fuel type", fuel_options)
+        # Select the dataframe based on user choice
+        if dataset_option == "Current run":
+            df_source = current_df[current_df["product_short_name"] == selected_fuel].copy()
+        else:
+            # Use snapshot history. If snapshot_df is empty, warn and fallback.
+            if snapshot_df.empty:
+                st.warning("Snapshot history is empty; using current run instead.")
+                df_source = current_df[current_df["product_short_name"] == selected_fuel].copy()
+            else:
+                df_source = snapshot_df[snapshot_df["product_short_name"] == selected_fuel].copy()
+
+        # Identify numeric columns for clustering.  Exclude run identifiers and
+        # obvious categorical or coordinate columns.  We also avoid clustering on
+        # columns that have very few unique values or are boolean.
+        numeric_cols = []
+        for col in df_source.columns:
+            # Skip identifiers and timestamps
+            if col in {"snapshot_run_id", "snapshot_ts", "site_id", "suburb", "brand_name", "product_short_name", "service_station_name"}:
+                continue
+            # Skip lat/long or other coordinates
+            if col.lower().startswith("lat") or col.lower().startswith("lon"):
+                continue
+            series = pd.to_numeric(df_source[col], errors="coerce")
+            if series.notna().sum() >= 3:
+                # Determine if the column has at least 3 unique values to be useful
+                if series.nunique() > 5:
+                    numeric_cols.append(col)
+
+        if not numeric_cols:
+            st.warning("No numeric features available for clustering.")
+        else:
+            # Suggest a default set of features if available
+            default_features = []
+            for candidate in ["price_today", "delta_abs", "vs_suburb_today"]:
+                if candidate in numeric_cols:
+                    default_features.append(candidate)
+            # If fewer than two defaults are available, fall back to the first two columns
+            if len(default_features) < 2 and len(numeric_cols) >= 2:
+                default_features = numeric_cols[:2]
+
+            selected_features = st.multiselect(
+                "Features", numeric_cols, default=default_features,
+                help="Select two or more numeric features to feed into the clustering algorithm."
+            )
+            # Require at least two features for meaningful clustering visualisation
+            if len(selected_features) < 2:
+                st.info("Select at least two features for clustering.")
+            else:
+                algorithm = st.selectbox(
+                    "Clustering algorithm",
+                    ["KMeans", "Agglomerative (Ward)"],
+                    help="KMeans uses k‑means clustering; Agglomerative uses Ward linkage hierarchical clustering."
+                )
+                n_clusters = int(
+                    st.slider(
+                        "Number of clusters",
+                        min_value=2,
+                        max_value=min(10, len(df_source)),
+                        value=min(4, len(df_source)),
+                        step=1,
+                        help="Select the number of clusters to form."
+                    )
+                )
+                run_cluster = st.button("Run clustering")
+                if run_cluster:
+                    # Import sklearn lazily to avoid overhead when not needed
+                    from sklearn.preprocessing import StandardScaler
+                    from sklearn.cluster import KMeans, AgglomerativeClustering
+                    from sklearn.decomposition import PCA
+
+                    # Extract the feature matrix and drop rows with missing values in
+                    # the selected features.  Keep an index mapping back to
+                    # df_source so we can assign cluster labels.
+                    feat_df = df_source[selected_features].apply(pd.to_numeric, errors="coerce")
+                    valid_mask = feat_df.notna().all(axis=1)
+                    feat_df = feat_df[valid_mask]
+                    if feat_df.empty:
+                        st.warning("No complete rows available for the selected features.")
+                    else:
+                        scaled = StandardScaler().fit_transform(feat_df.values)
+                        if algorithm == "KMeans":
+                            model = KMeans(n_clusters=n_clusters, n_init=10, random_state=42)
+                        else:
+                            model = AgglomerativeClustering(n_clusters=n_clusters, linkage="ward")
+                        labels = model.fit_predict(scaled)
+                        # Create a result DataFrame mapping the cluster labels back to the source
+                        cluster_df = df_source.loc[feat_df.index].copy()
+                        cluster_df["cluster"] = labels.astype(str)
+                        # Determine coordinates for scatter plot
+                        if len(selected_features) > 2:
+                            pca = PCA(n_components=2)
+                            coords = pca.fit_transform(scaled)
+                            cluster_df["pc1"] = coords[:, 0]
+                            cluster_df["pc2"] = coords[:, 1]
+                            x_col, y_col = "pc1", "pc2"
+                            x_label, y_label = "PC1", "PC2"
+                        else:
+                            x_col, y_col = selected_features[:2]
+                            x_label, y_label = selected_features[:2]
+                            cluster_df[x_col] = feat_df[selected_features[0]].values
+                            cluster_df[y_col] = feat_df[selected_features[1]].values
+                        # Prepare hover columns (limit to a few key identifiers)
+                        hover_cols = []
+                        for c in ["site_id", "service_station_name", "suburb", "price_today", "delta_abs"]:
+                            if c in cluster_df.columns and c not in hover_cols:
+                                hover_cols.append(c)
+                        # Create scatter plot.  If using snapshot history, colour by cluster and
+                        # animate over run timestamps when available.  Otherwise just
+                        # colour by cluster.
+                        if dataset_option == "Snapshot history" and "snapshot_ts" in cluster_df.columns:
+                            fig = px.scatter(
+                                cluster_df,
+                                x=x_col,
+                                y=y_col,
+                                color="cluster",
+                                hover_data=hover_cols + selected_features,
+                                animation_frame="snapshot_ts",
+                                title="Clusters over time",
+                                labels={x_col: x_label, y_col: y_label},
+                            )
+                            fig.update_layout(height=480)
+                            st.plotly_chart(fig, use_container_width=True)
+                        else:
+                            fig = px.scatter(
+                                cluster_df,
+                                x=x_col,
+                                y=y_col,
+                                color="cluster",
+                                hover_data=hover_cols + selected_features,
+                                title="Cluster scatter plot",
+                                labels={x_col: x_label, y_col: y_label},
+                            )
+                            fig.update_layout(height=480)
+                            st.plotly_chart(fig, use_container_width=True)
+                        # Compute summary statistics for each cluster
+                        summary = (
+                            cluster_df.groupby("cluster").agg(
+                                sites=("site_id", "nunique"),
+                                median_price=("price_today", "median"),
+                                median_delta=("delta_abs", "median"),
+                                mean_delta=("delta_abs", "mean"),
+                            ).reset_index().sort_values("cluster")
+                        )
+                        # Display the summary table
+                        st.markdown("**Cluster summary**")
+                        display_table(
+                            summary,
+                            ["cluster", "sites", "median_price", "median_delta", "mean_delta"],
+                            price_cols=["median_price"],
+                            delta_cols=["median_delta", "mean_delta"],
+                            height=260,
+                        )

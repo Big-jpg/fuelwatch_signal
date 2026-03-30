@@ -1,0 +1,92 @@
+[
+  {
+    "month": "March 2026",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 221.5
+  },
+  {
+    "month": "February 2026",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 164.5
+  },
+  {
+    "month": "January 2026",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 167.9
+  },
+  {
+    "month": "December 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 174.0
+  },
+  {
+    "month": "November 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 175.4
+  },
+  {
+    "month": "October 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 172.4
+  },
+  {
+    "month": "September 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 173.8
+  },
+  {
+    "month": "August 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 173.2
+  },
+  {
+    "month": "July 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 174.5
+  },
+  {
+    "month": "June 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 172.0
+  },
+  {
+    "month": "May 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 168.9
+  },
+  {
+    "month": "April 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 173.2
+  },
+  {
+    "month": "March 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 175.5
+  },
+  {
+    "month": "February 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 178.2
+  },
+  {
+    "month": "January 2025",
+    "region": "Metro",
+    "product": "ULP",
+    "average": 179.3
+  }
+]

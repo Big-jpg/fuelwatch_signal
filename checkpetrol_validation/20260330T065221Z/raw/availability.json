@@ -1,0 +1,83 @@
+{
+  "total_stations": 8353,
+  "outage_count": 592,
+  "outage_percent": 7,
+  "outages_by_state": [
+    {
+      "state": "VIC",
+      "count": 236
+    },
+    {
+      "state": "QLD",
+      "count": 180
+    },
+    {
+      "state": "NSW",
+      "count": 160
+    },
+    {
+      "state": "TAS",
+      "count": 5
+    },
+    {
+      "state": "WA",
+      "count": 4
+    },
+    {
+      "state": "ACT",
+      "count": 4
+    },
+    {
+      "state": "SA",
+      "count": 2
+    },
+    {
+      "state": "NT",
+      "count": 1
+    }
+  ],
+  "availability": [
+    {
+      "fuel_type": "E10",
+      "available": 3553,
+      "total": 8353,
+      "percentage": 43
+    },
+    {
+      "fuel_type": "U91",
+      "available": 7236,
+      "total": 8353,
+      "percentage": 87
+    },
+    {
+      "fuel_type": "P95",
+      "available": 3868,
+      "total": 8353,
+      "percentage": 46
+    },
+    {
+      "fuel_type": "P98",
+      "available": 5313,
+      "total": 8353,
+      "percentage": 64
+    },
+    {
+      "fuel_type": "DSL",
+      "available": 5019,
+      "total": 8353,
+      "percentage": 60
+    },
+    {
+      "fuel_type": "PDSL",
+      "available": 3723,
+      "total": 8353,
+      "percentage": 45
+    },
+    {
+      "fuel_type": "LPG",
+      "available": 886,
+      "total": 8353,
+      "percentage": 11
+    }
+  ]
+}
