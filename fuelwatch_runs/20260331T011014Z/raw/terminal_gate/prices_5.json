@@ -1,0 +1,29 @@
+[
+  {
+    "id": 27,
+    "description": "Ampol Albany",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 234.55,
+        "priceNext": 234.55,
+        "pricePrevious": 239.45
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 244.74,
+        "priceNext": 244.74,
+        "pricePrevious": 250.01
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 319.23,
+        "priceNext": 319.23,
+        "pricePrevious": 315.03
+      }
+    ]
+  }
+]

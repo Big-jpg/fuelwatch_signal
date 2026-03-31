@@ -1437,8 +1437,29 @@ with clustering_tab:
         dataset_option = st.selectbox(
             "Dataset",
             ["Current run", "Snapshot history"],
-            help="Use the current run data or cluster across the most recent snapshot runs."
+            help=(
+                "Select the source of data for clustering. Use the current run to focus on the latest snapshot, "
+                "or select snapshot history to analyse how clusters evolve over recent runs."
+            ),
         )
+        # Provide high-level guidance on clustering and algorithms
+        st.markdown(
+            """
+            **What does clustering do?**  
+            Clustering groups stations based on the numeric features you choose. It can help you see patterns such as
+            cheap stations that are starting to rise, expensive stations that are falling, or clusters of stations with
+            similar relative pricing across suburbs.  
+
+            **When to use K‑Means vs Ward hierarchical?**  
+            *K‑Means* partitions data into *k* roughly equal clusters by minimising within‑cluster variance. It’s fast and
+            well‑suited to larger datasets when you expect each group to be of similar size.  
+
+            *Ward hierarchical* clustering builds a tree of clusters by successively merging the two clusters that
+            increase within‑cluster variance the least. It can uncover nested structure and works well when cluster
+            sizes vary or when you want to explore different numbers of clusters from the same model.
+            """
+        )
+
         # Determine available fuels
         fuel_options = sorted(current_df["product_short_name"].dropna().unique().tolist())
         selected_fuel = st.selectbox("Fuel type", fuel_options)
@@ -1484,7 +1505,8 @@ with clustering_tab:
 
             selected_features = st.multiselect(
                 "Features", numeric_cols, default=default_features,
-                help="Select two or more numeric features to feed into the clustering algorithm."
+                help="Select two or more numeric features to feed into the clustering algorithm. "
+                "Features reflect price level, price movement and relative pricing compared to suburb or market medians."
             )
             # Require at least two features for meaningful clustering visualisation
             if len(selected_features) < 2:
@@ -1593,4 +1615,39 @@ with clustering_tab:
                             price_cols=["median_price"],
                             delta_cols=["median_delta", "mean_delta"],
                             height=260,
+                        )
+
+                        # Provide contextual explanations about selected features and how to interpret clusters
+                        if selected_features:
+                            # Descriptions for some common features
+                            feature_descriptions = {
+                                "price_today": "Current price of the fuel at the station in cents per litre.",
+                                "price_tomorrow": "Projected price for tomorrow in cents per litre.",
+                                "delta_abs": "Absolute change between tomorrow's price and today's price (cents). Positive values mean the price is forecast to rise.",
+                                "vs_suburb_today": "Difference between today's price and the median price in the same suburb. Positive values indicate the station is more expensive than the suburb median.",
+                                "vs_market_today": "Difference between today's price and the market median price for the chosen fuel.",
+                                "delta_vs_suburb": "Difference between a station's price change and the suburb's median change.",
+                                "delta_vs_brand": "Difference between a station's price change and the median change for its brand.",
+                                "price_robust_z": "Robust z‑score of today's price across the market for the fuel. Helps identify outlier price levels.",
+                                "delta_robust_z": "Robust z‑score of the price change. Helps flag extreme movements.",
+                                "vs_suburb_robust_z": "Robust z‑score of the difference between today's price and the suburb median.",
+                            }
+                            st.markdown("**Selected feature explanations**")
+                            for feat in selected_features:
+                                description = feature_descriptions.get(feat, "No description available.")
+                                st.markdown(f"- **{feat}**: {description}")
+
+                        st.markdown(
+                            """
+                            **How to interpret clusters**  
+                            - **Cluster labels** have no intrinsic meaning; they simply group together stations with similar values for the selected features.  
+
+                            - **Cluster summary** helps you understand the typical characteristics of each group. For example, a cluster with a low median price and positive median delta might represent cheap stations that are forecast to get more expensive soon.  
+
+                            - **Scatter plot** positions clusters in a two‑dimensional space using either your selected features or principal components. Clusters that are far apart have more distinct characteristics.  
+
+                            - When using **snapshot history**, the animated scatter shows how clusters evolve over time, helping you see whether stations move from one behavioural group to another across runs.  
+
+                            - **Number of clusters**: Start with a small number (e.g. 3–4) to see broad patterns, and increase it (e.g. 8) to reveal finer distinctions. Too many clusters may split apart meaningful groups, while too few may hide important differences.
+                            """
                         )
