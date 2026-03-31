@@ -19,6 +19,16 @@ from collector import (
 )
 from fuelwatch_client import default_monthly_window, iso_utc_now
 
+# Import FuelSecurity client for additional supply and reserve reporting
+from fuelsecurity_client import (
+    get_status,
+    get_prices_summary,
+    get_reserves_current,
+    get_inbound_summary,
+    get_outages,
+    get_tankers_map,
+)
+
 st.set_page_config(page_title="FuelWatch Signals", layout="wide")
 
 
@@ -810,7 +820,7 @@ snapshot_df = load_snapshot_history(str(root), use_cached_effective=use_cached_e
 if not snapshot_df.empty:
     snapshot_df = attach_nearest_nodes(snapshot_df, nodes_df)
 
-summary_tab, signals_tab, current_tab, historical_tab, terminal_tab, archive_tab, clustering_tab = st.tabs([
+summary_tab, signals_tab, current_tab, historical_tab, terminal_tab, archive_tab, clustering_tab, security_tab = st.tabs([
     "Summary",
     "Signals",
     "Current prices",
@@ -818,6 +828,7 @@ summary_tab, signals_tab, current_tab, historical_tab, terminal_tab, archive_tab
     "Terminal gate",
     "Archives",
     "Clustering",
+    "Fuel security",
 ])
 
 with summary_tab:
@@ -1651,3 +1662,213 @@ with clustering_tab:
                             - **Number of clusters**: Start with a small number (e.g. 3–4) to see broad patterns, and increase it (e.g. 8) to reveal finer distinctions. Too many clusters may split apart meaningful groups, while too few may hide important differences.
                             """
                         )
+
+with security_tab:
+    """
+    Fuel security and supply reporting based on the public FuelSecurity API.
+
+    The FuelSecurity service aggregates data about fuel reserves, incoming
+    tanker movements, city price averages, outages and other key metrics.  This
+    tab allows you to fetch and explore that data on demand.  Data is not
+    loaded automatically to avoid unnecessary network requests – press the
+    button below when you are ready to load the latest information.
+    """
+    st.subheader("Fuel security & supply")
+    st.caption("Data sourced from fuelsecurity.com.au – real‑time fuel supply intelligence.")
+    load_security = st.button("Load fuel security data")
+    if load_security:
+        try:
+            status_data = get_status()
+            inbound_data = get_inbound_summary()
+            prices_data = get_prices_summary()
+            reserves_data = get_reserves_current()
+            outages_data = get_outages()
+            tankers_data = get_tankers_map()
+        except Exception as exc:
+            st.error(f"Failed to load fuel security data: {exc}")
+        else:
+            # status summary
+            if status_data:
+                st.markdown(f"**Last updated:** {status_data.get('lastUpdated', '-')}")
+                # show source update times
+                sources_info = status_data.get("sources", {})
+                if sources_info:
+                    cols = st.columns(len(sources_info))
+                    for idx, (key, ts) in enumerate(sources_info.items()):
+                        with cols[idx]:
+                            st.metric(f"{key} updated", ts)
+            # create subtabs for each dataset
+            inbound_tab, prices_tab, reserves_tab, outages_tab, tankers_tab = st.tabs([
+                "Inbound", "Prices", "Reserves", "Outages", "Tankers"
+            ])
+
+            with inbound_tab:
+                st.markdown("**Inbound supply summary**")
+                if inbound_data:
+                    # key metrics
+                    col1, col2, col3 = st.columns(3)
+                    col1.metric("Total inbound (ML)", inbound_data.get("totalInboundML"))
+                    col2.metric("Days cover", inbound_data.get("totalDaysCover"))
+                    col3.metric("Ships arriving", inbound_data.get("shipCount"))
+                    # next arrival details
+                    next_arrival = inbound_data.get("nextArrival") or {}
+                    name = next_arrival.get("name") or "-"
+                    eta = next_arrival.get("eta") or "-"
+                    dest = next_arrival.get("destination") or "-"
+                    st.markdown(f"Next arrival: **{name}** (ETA: {eta}, Destination: {dest})")
+                    # window breakdown
+                    by_window = inbound_data.get("byWindow") or {}
+                    if by_window:
+                        window_df = pd.DataFrame.from_dict(
+                            {k: {"ml": v.get("ml"), "ships": v.get("ships")} for k, v in by_window.items()},
+                            orient="index",
+                        ).reset_index().rename(columns={"index": "window"})
+                        display_table(window_df, ["window", "ml", "ships"], price_cols=["ml"], height=200)
+                else:
+                    st.info("No inbound summary available.")
+
+            with prices_tab:
+                st.markdown("**Capital price summary**")
+                if prices_data:
+                    capitals = prices_data.get("capitals")
+                    if capitals:
+                        capitals_df = pd.json_normalize(capitals)
+                        cols_to_display = [
+                            "city",
+                            "state",
+                            "petrol_cpl",
+                            "diesel_cpl",
+                            "e10_cpl",
+                            "p95_cpl",
+                            "p98_cpl",
+                            "petrol_pre_crisis",
+                            "diesel_pre_crisis",
+                            "source",
+                            "stations_sampled",
+                        ]
+                        cols_available = [c for c in cols_to_display if c in capitals_df.columns]
+                        display_table(
+                            capitals_df[cols_available],
+                            cols_available,
+                            price_cols=[c for c in cols_available if c.endswith("_cpl") or c.endswith("pre_crisis")],
+                            height=320,
+                        )
+                    national = prices_data.get("national_avg")
+                    brent = prices_data.get("brent")
+                    snapshot_date = prices_data.get("snapshot_date")
+                    metrics = st.columns(3)
+                    if national:
+                        metrics[0].metric("National petrol (cpl)", national.get("petrol_cpl"))
+                        metrics[0].metric("National diesel (cpl)", national.get("diesel_cpl"))
+                    if brent:
+                        metrics[1].metric("Brent (USD/bbl)", brent.get("usd_bbl"))
+                        metrics[1].metric("Brent pre‑crisis", brent.get("pre_crisis"))
+                        metrics[1].caption(f"Brent updated {brent.get('updated')}")
+                    if snapshot_date:
+                        metrics[2].metric("Snapshot date", snapshot_date)
+                else:
+                    st.info("No price summary available.")
+
+            with reserves_tab:
+                st.markdown("**Fuel reserves**")
+                if reserves_data:
+                    reserves_dict = reserves_data.get("reserves") or {}
+                    if reserves_dict:
+                        reserves_df = pd.DataFrame.from_dict(reserves_dict, orient="index")
+                        reserves_df = reserves_df.reset_index().rename(columns={"index": "fuel_type"})
+                        display_table(
+                            reserves_df,
+                            reserves_df.columns.tolist(),
+                            price_cols=[],
+                            delta_cols=[],
+                            height=300,
+                        )
+                        # show methodology and data source if present
+                        meth = reserves_data.get("methodology")
+                        data_source = reserves_data.get("dataSource")
+                        if meth:
+                            st.caption(meth)
+                        if data_source:
+                            st.caption(f"Data source: {data_source}")
+                    else:
+                        st.info("No reserves data available.")
+                else:
+                    st.info("No reserves data available.")
+
+            with outages_tab:
+                st.markdown("**Outages**")
+                if outages_data:
+                    summary_out = outages_data.get("summary") or {}
+                    if summary_out:
+                        metrics = st.columns(4)
+                        metrics[0].metric("Stations out", summary_out.get("totalOut"))
+                        metrics[1].metric("Stations stale", summary_out.get("totalStale"))
+                        metrics[2].metric("Total affected", summary_out.get("totalAffected"))
+                        metrics[3].metric("Reporting", summary_out.get("totalReporting"))
+                        # by fuel type
+                        by_fuel = summary_out.get("byFuelType")
+                        if by_fuel:
+                            by_fuel_df = pd.DataFrame.from_dict(by_fuel, orient="index")
+                            by_fuel_df = by_fuel_df.reset_index().rename(columns={"index": "fuel_type"})
+                            display_table(
+                                by_fuel_df,
+                                ["fuel_type", "out", "stale", "total", "avgPrice"],
+                                price_cols=["avgPrice"],
+                                height=300,
+                            )
+                        # outage trend
+                        trend = outages_data.get("trend")
+                        if trend:
+                            trend_df = pd.DataFrame(trend)
+                            fig = px.line(
+                                trend_df,
+                                x="date",
+                                y=["stationsOut", "stationsStale"],
+                                markers=True,
+                                title="Outage trend",
+                            )
+                            fig.update_layout(height=350, legend_title="Stations")
+                            st.plotly_chart(fig, use_container_width=True)
+                        last_updated = outages_data.get("lastUpdated")
+                        if last_updated:
+                            st.caption(f"Last updated {last_updated}")
+                    else:
+                        st.info("No outage summary available.")
+                else:
+                    st.info("No outage data available.")
+
+            with tankers_tab:
+                st.markdown("**Tankers**")
+                if tankers_data:
+                    vessels = tankers_data.get("vessels") or []
+                    if vessels:
+                        vessels_df = pd.json_normalize(vessels)
+                        cols_to_show = [
+                            col
+                            for col in [
+                                "vessel_name",
+                                "cargo_type",
+                                "volume_ml",
+                                "origin_port",
+                                "destination_port",
+                                "eta_australia",
+                                "status",
+                                "days_cover_impact",
+                                "latitude",
+                                "longitude",
+                                "speed_knots",
+                            ]
+                            if col in vessels_df.columns
+                        ]
+                        display_table(
+                            vessels_df[cols_to_show],
+                            cols_to_show,
+                            price_cols=["volume_ml"],
+                            delta_cols=[],
+                            height=400,
+                        )
+                        st.caption(f"{len(vessels)} vessels tracked.")
+                    else:
+                        st.info("No vessel data available.")
+                else:
+                    st.info("No tanker data available.")
