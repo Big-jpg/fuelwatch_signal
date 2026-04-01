@@ -1,0 +1,38 @@
+[
+  {
+    "id": 30,
+    "description": "Ampol Geraldton",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 201.29,
+        "priceNext": 201.87,
+        "pricePrevious": 234.31
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 296.99,
+        "priceNext": 301.92,
+        "pricePrevious": 323.08
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "description": "BP Geraldton",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 293.12,
+        "priceNext": 297.74,
+        "pricePrevious": 313.95
+      }
+    ]
+  }
+]
