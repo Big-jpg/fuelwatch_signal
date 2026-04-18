@@ -1,0 +1,26 @@
+[
+  {
+    "id": 5,
+    "description": "Albany"
+  },
+  {
+    "id": 1,
+    "description": "Broome"
+  },
+  {
+    "id": 2,
+    "description": "Esperance"
+  },
+  {
+    "id": 3,
+    "description": "Geraldton"
+  },
+  {
+    "id": 6,
+    "description": "Perth"
+  },
+  {
+    "id": 4,
+    "description": "Port Hedland"
+  }
+]

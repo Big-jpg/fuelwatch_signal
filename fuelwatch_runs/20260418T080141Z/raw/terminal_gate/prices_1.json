@@ -1,0 +1,83 @@
+[
+  {
+    "id": 28,
+    "description": "Ampol Broome",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 218.15,
+        "priceNext": 218.15,
+        "pricePrevious": 220.08
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 233.82,
+        "priceNext": 233.82,
+        "pricePrevious": 235.85
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 248.95,
+        "priceNext": 248.95,
+        "pricePrevious": 256.7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "description": "BP Broome",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 198.29,
+        "priceNext": 198.29,
+        "pricePrevious": 200.87
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 208.29,
+        "priceNext": 208.29,
+        "pricePrevious": 210.87
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 265.66,
+        "priceNext": 265.66,
+        "pricePrevious": 272.32
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "description": "Viva Energy Broome",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 239.33,
+        "priceNext": 239.33,
+        "pricePrevious": 241.88
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 249.28,
+        "priceNext": 249.28,
+        "pricePrevious": 251.85
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 284.59,
+        "priceNext": 284.59,
+        "pricePrevious": 290.63
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 26,
+    "description": "Ampol Port Hedland",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 222.92,
+        "priceNext": 227.25,
+        "pricePrevious": 222.29
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 298.75,
+        "priceNext": 307.59,
+        "pricePrevious": 293.83
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "description": "BP Port Hedland",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 214.45,
+        "priceNext": 210.17,
+        "pricePrevious": 214.04
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 296.87,
+        "priceNext": 299.24,
+        "pricePrevious": 292.26
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "description": "Caltex Port Hedland",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "8:30am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 307.95,
+        "priceNext": 317.68,
+        "pricePrevious": 297.08
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "description": "Viva Energy Port Hedland",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": false,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 316.37,
+        "priceNext": 322.09,
+        "pricePrevious": 312.71
+      }
+    ]
+  }
+]

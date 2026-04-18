@@ -1,0 +1,14 @@
+{
+  "TerminalGatePriceChangeTime": "08:30",
+  "WholesaleChangeOverTime": "14:30",
+  "RetailChangeOverTime": "14:30",
+  "RetailPriceChangeTime": "06:00",
+  "MemberEmailRenewalMonths": "12",
+  "MemberEmailAutoRenewalDays": "14",
+  "EmailPerformanceStatus": null,
+  "CacheEmailStartTime": null,
+  "DefaultDailyEmailStartTime": "14:30",
+  "NotifyTo": "FuelWatch@lgirs.wa.gov.au",
+  "eMailMaxNumTest": "99",
+  "HasEmailSent": null
+}

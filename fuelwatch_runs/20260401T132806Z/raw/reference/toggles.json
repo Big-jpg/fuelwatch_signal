@@ -1,0 +1,10 @@
+[
+  {
+    "featureName": "7118-feature-toggle-map-search-bar",
+    "isToggledOn": true
+  },
+  {
+    "featureName": "15265-feature-toggle-beta-mode",
+    "isToggledOn": false
+  }
+]

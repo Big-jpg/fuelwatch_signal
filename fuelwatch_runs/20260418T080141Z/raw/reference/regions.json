@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "description": "Metro",
+    "regionType": "Metro"
+  },
+  {
+    "id": 3,
+    "description": "Gascoyne",
+    "regionType": "Country",
+    "abbreviatedName": "Gasc'ne"
+  },
+  {
+    "id": 4,
+    "description": "Goldfields-Esperance",
+    "regionType": "Country",
+    "abbreviatedName": "G'flds"
+  },
+  {
+    "id": 5,
+    "description": "Great Southern",
+    "regionType": "Country",
+    "abbreviatedName": "Gt Sthn"
+  },
+  {
+    "id": 6,
+    "description": "Kimberley",
+    "regionType": "Country",
+    "abbreviatedName": "Kimb'ly"
+  },
+  {
+    "id": 7,
+    "description": "Mid-West",
+    "regionType": "Country",
+    "abbreviatedName": "Mid West"
+  },
+  {
+    "id": 8,
+    "description": "Peel",
+    "regionType": "Country",
+    "abbreviatedName": "Peel"
+  },
+  {
+    "id": 9,
+    "description": "Pilbara",
+    "regionType": "Country",
+    "abbreviatedName": "Pilbara"
+  },
+  {
+    "id": 10,
+    "description": "South-West",
+    "regionType": "Country",
+    "abbreviatedName": "South West"
+  },
+  {
+    "id": 11,
+    "description": "Wheatbelt",
+    "regionType": "Country",
+    "abbreviatedName": "W'belt"
+  }
+]

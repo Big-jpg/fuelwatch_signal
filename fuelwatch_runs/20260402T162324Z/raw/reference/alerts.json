@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1308,
+    "title": "What is price gouging?",
+    "details": "The term “price gouging” as commonly used describes a sudden, large increase in prices. This is not illegal. However, should the margin between retail and wholesale prices increase unreasonably, this is something the government can investigate further.<br><br>\r\n\r\nRetail prices have increased rapidly in response to rapid increases in the wholesale price, which in turn have increased due to international benchmarks. The average margin between retail and wholesale prices has not shown any unusual increase.",
+    "alertType": "Default",
+    "alertStatus": "Active",
+    "orderRank": 0,
+    "alertDate": "2026-03-16T00:00:00+08:00",
+    "isAlertRead": false
+  },
+  {
+    "id": 1038,
+    "title": "Diesel & brand diesel",
+    "details": "Motorists that buy diesel must consider the two diesel products (regular diesel and proprietary branded diesel), that are available in the WA marketplace. Prices for proprietary diesel, under brand names that include \"Special\", \"Ultimate\" and \"V-Power\", are labelled as \"Brand Diesel\" in FuelWatch. <br/><br/>\r\n\r\nSome sites sell both and some sites only sell one. To ensure you get the lowest diesel price regardless of whether it is regular or brand diesel, we recommend using the purple toggle button \"Search and compare Diesel / Brand diesel prices\" that appears on either diesel searches.",
+    "alertType": "Default",
+    "alertStatus": "Active",
+    "orderRank": 0,
+    "alertDate": "2021-04-07T00:00:00+08:00",
+    "isAlertRead": false
+  },
+  {
+    "id": 478,
+    "title": "Premium motoring fuels in WA",
+    "details": "We've been getting some calls lately from motorists who think they may have been overcharged for their fuel, and then realised they have accidentally purchased a higher grade type.<br><br>\r\n\r\nTo aid in determining which premium fuel you are buying, FuelWatch has put together these guidelines.<br><br>\r\n\r\nThere are <b>two premium fuels</b> sold in the Western Australian market - known by the generic names of PULP and 98 RON.<br><br>\r\n\r\nMost service stations offer these products under a branded name. Some sites may sell both PULP and 98 RON, while at others it will be one or the other. <br><br>\r\n\r\nEach fuel type should be clearly marked. There is no advantage in using a higher-octane fuel than your vehicle's engine management system is designed to take advantage of. With 98 RON up to 15 cpl more expensive than PULP at the same site, it pays to make sure you know which one you are purchasing. <br><br>\r\n",
+    "alertType": "Default",
+    "alertStatus": "Active",
+    "orderRank": 1,
+    "alertDate": "2010-02-22T00:00:00+08:00",
+    "isAlertRead": false
+  },
+  {
+    "id": 199,
+    "title": "REGULAR SERVICE OUTAGE",
+    "details": "The Department of Local Government, Industry Regulation and Safety undergoes system maintenance every Wednesday from approximately 17:00-22:00 hours.<br><br>\r\n\r\nAs a result, the FuelWatch website and other FuelWatch services may be unavailable during this time. The Department of Energy, Mines, Industry Regulation and Safety would like to apologise for any inconvenience this may cause.",
+    "alertType": "Default",
+    "alertStatus": "Active",
+    "orderRank": 5,
+    "alertDate": "2009-05-28T00:00:00+08:00",
+    "isAlertRead": false
+  }
+]
