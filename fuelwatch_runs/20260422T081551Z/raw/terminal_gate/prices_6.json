@@ -1,0 +1,164 @@
+[
+  {
+    "id": 31,
+    "description": "Ampol Kwinana",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12:01am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 182.49,
+        "priceNext": 181.31,
+        "pricePrevious": 185.03
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 196.14,
+        "priceNext": 194.99,
+        "pricePrevious": 198.78
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 230.57,
+        "priceNext": 222.72,
+        "pricePrevious": 240.42
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "BP Kewdale",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 179.73,
+        "priceNext": 176.65,
+        "pricePrevious": 183.35
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 189.73,
+        "priceNext": 186.65,
+        "pricePrevious": 193.35
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 231.7,
+        "priceNext": 221.64,
+        "pricePrevious": 245.31
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "BP Kwinana",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 179.73,
+        "priceNext": 176.65,
+        "pricePrevious": 183.35
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 189.73,
+        "priceNext": 186.65,
+        "pricePrevious": 193.35
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 231.7,
+        "priceNext": 221.64,
+        "pricePrevious": 245.31
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "description": "Caltex Kwinana",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "8:30am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 184.63,
+        "priceNext": 181.15,
+        "pricePrevious": 188.42
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 203.61,
+        "priceNext": 200.25,
+        "pricePrevious": 207.81
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 238.13,
+        "priceNext": 228.08,
+        "pricePrevious": 252.3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "description": "Mobil Kwinana",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "8:30am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 184.28,
+        "priceNext": 182.71,
+        "pricePrevious": 185.91
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 193.97,
+        "priceNext": 192.38,
+        "pricePrevious": 195.57
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 246.54,
+        "priceNext": 238.23,
+        "pricePrevious": 254.66
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "Viva Energy Kwinana",
+    "defaultTerminalGatePriceChangeTime": "8:30am",
+    "terminalGatePriceChangeTime": "12am",
+    "hasTwoWholesalePrices": true,
+    "terminalGateProductModels": [
+      {
+        "fuelType": "ULP",
+        "priceCurrent": 178.27,
+        "priceNext": 175.76,
+        "pricePrevious": 181.83
+      },
+      {
+        "fuelType": "PULP",
+        "priceCurrent": 191.2,
+        "priceNext": 188.62,
+        "pricePrevious": 194.77
+      },
+      {
+        "fuelType": "Diesel",
+        "priceCurrent": 234.49,
+        "priceNext": 224.72,
+        "pricePrevious": 242.66
+      }
+    ]
+  }
+]
