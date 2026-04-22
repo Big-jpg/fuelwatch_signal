@@ -1,0 +1,44 @@
+[
+  {
+    "shortName": "ULP",
+    "description": "ULP",
+    "minPrice": 75.0,
+    "maxPrice": 300.0
+  },
+  {
+    "shortName": "PUP",
+    "description": "PULP",
+    "minPrice": 75.0,
+    "maxPrice": 350.0
+  },
+  {
+    "shortName": "DSL",
+    "description": "Diesel",
+    "minPrice": 75.0,
+    "maxPrice": 400.0
+  },
+  {
+    "shortName": "BDL",
+    "description": "Brand Diesel",
+    "minPrice": 75.0,
+    "maxPrice": 400.0
+  },
+  {
+    "shortName": "LPG",
+    "description": "LPG",
+    "minPrice": 40.0,
+    "maxPrice": 300.0
+  },
+  {
+    "shortName": "98R",
+    "description": "98 RON",
+    "minPrice": 75.0,
+    "maxPrice": 350.0
+  },
+  {
+    "shortName": "E85",
+    "description": "E85",
+    "minPrice": 75.0,
+    "maxPrice": 300.0
+  }
+]

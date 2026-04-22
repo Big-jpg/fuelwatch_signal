@@ -1,0 +1,1820 @@
+[
+  {
+    "fileName": "FuelWatchRetail-03-2026.csv",
+    "fileDate": "2026-03-31T23:59:59+08:00",
+    "bytes": 9068772,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2026.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2026.csv",
+    "fileDate": "2026-02-28T23:59:59+08:00",
+    "bytes": 8487591,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2026.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2026.csv",
+    "fileDate": "2026-01-31T23:59:59+08:00",
+    "bytes": 9414768,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2026.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2025.csv",
+    "fileDate": "2025-12-31T23:59:59+08:00",
+    "bytes": 9400272,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2025.csv",
+    "fileDate": "2025-11-30T23:59:59+08:00",
+    "bytes": 9026859,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2025.csv",
+    "fileDate": "2025-10-31T23:59:59+08:00",
+    "bytes": 9260114,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2025.csv",
+    "fileDate": "2025-09-30T23:59:59+08:00",
+    "bytes": 8890769,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2025.csv",
+    "fileDate": "2025-08-31T23:59:59+08:00",
+    "bytes": 9193522,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2025.csv",
+    "fileDate": "2025-07-31T23:59:59+08:00",
+    "bytes": 9163375,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2025.csv",
+    "fileDate": "2025-06-30T23:59:59+08:00",
+    "bytes": 8858690,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2025.csv",
+    "fileDate": "2025-05-31T23:59:59+08:00",
+    "bytes": 9150529,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2025.csv",
+    "fileDate": "2025-04-30T23:59:59+08:00",
+    "bytes": 8867494,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2025.csv",
+    "fileDate": "2025-03-31T23:59:59+08:00",
+    "bytes": 9151095,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2025.csv",
+    "fileDate": "2025-02-28T23:59:59+08:00",
+    "bytes": 8256184,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2025.csv",
+    "fileDate": "2025-01-31T23:59:59+08:00",
+    "bytes": 9108180,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2025.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2024.csv",
+    "fileDate": "2024-12-31T23:59:59+08:00",
+    "bytes": 9077467,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2024.csv",
+    "fileDate": "2024-11-30T23:59:59+08:00",
+    "bytes": 8781276,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2024.csv",
+    "fileDate": "2024-10-31T23:59:59+08:00",
+    "bytes": 9069355,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2024.csv",
+    "fileDate": "2024-09-30T23:59:59+08:00",
+    "bytes": 8797979,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2024.csv",
+    "fileDate": "2024-08-31T23:59:59+08:00",
+    "bytes": 9100989,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2024.csv",
+    "fileDate": "2024-07-31T23:59:59+08:00",
+    "bytes": 9043724,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2024.csv",
+    "fileDate": "2024-06-30T23:59:59+08:00",
+    "bytes": 8744894,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2024.csv",
+    "fileDate": "2024-05-31T23:59:59+08:00",
+    "bytes": 9022520,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2024.csv",
+    "fileDate": "2024-04-30T23:59:59+08:00",
+    "bytes": 8730828,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2024.csv",
+    "fileDate": "2024-03-31T23:59:59+08:00",
+    "bytes": 9014044,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2024.csv",
+    "fileDate": "2024-02-29T23:59:59+08:00",
+    "bytes": 8420955,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2024.csv",
+    "fileDate": "2024-01-31T23:59:59+08:00",
+    "bytes": 8992115,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2024.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2023.csv",
+    "fileDate": "2023-12-31T23:59:59+08:00",
+    "bytes": 8954398,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2023.csv",
+    "fileDate": "2023-11-30T23:59:59+08:00",
+    "bytes": 8619331,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2023.csv",
+    "fileDate": "2023-10-31T23:59:59+08:00",
+    "bytes": 8884622,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2023.csv",
+    "fileDate": "2023-09-30T23:59:59+08:00",
+    "bytes": 8587235,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2023.csv",
+    "fileDate": "2023-08-31T23:59:59+08:00",
+    "bytes": 8883525,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2023.csv",
+    "fileDate": "2023-07-31T23:59:59+08:00",
+    "bytes": 8815219,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2023.csv",
+    "fileDate": "2023-06-30T23:59:59+08:00",
+    "bytes": 8501728,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2023.csv",
+    "fileDate": "2023-05-31T23:59:59+08:00",
+    "bytes": 8745855,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2023.csv",
+    "fileDate": "2023-04-30T23:59:59+08:00",
+    "bytes": 8466041,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2023.csv",
+    "fileDate": "2023-03-31T23:59:59+08:00",
+    "bytes": 8731143,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2023.csv",
+    "fileDate": "2023-02-28T23:59:59+08:00",
+    "bytes": 7881747,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2023.csv",
+    "fileDate": "2023-01-31T23:59:59+08:00",
+    "bytes": 8731711,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2023.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2022.csv",
+    "fileDate": "2022-12-31T23:59:59+08:00",
+    "bytes": 8719006,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2022.csv",
+    "fileDate": "2022-11-30T23:59:59+08:00",
+    "bytes": 8375595,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2022.csv",
+    "fileDate": "2022-10-31T23:59:59+08:00",
+    "bytes": 8672203,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2022.csv",
+    "fileDate": "2022-09-30T23:59:59+08:00",
+    "bytes": 8460510,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2022.csv",
+    "fileDate": "2022-08-31T23:59:59+08:00",
+    "bytes": 8758981,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2022.csv",
+    "fileDate": "2022-07-31T23:59:59+08:00",
+    "bytes": 8737462,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2022.csv",
+    "fileDate": "2022-06-30T23:59:59+08:00",
+    "bytes": 8469894,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2022.csv",
+    "fileDate": "2022-05-31T23:59:59+08:00",
+    "bytes": 8756606,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2022.csv",
+    "fileDate": "2022-04-30T23:59:59+08:00",
+    "bytes": 8459606,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2022.csv",
+    "fileDate": "2022-03-31T23:59:59+08:00",
+    "bytes": 8711075,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2022.csv",
+    "fileDate": "2022-02-28T23:59:59+08:00",
+    "bytes": 7876329,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2022.csv",
+    "fileDate": "2022-01-31T23:59:59+08:00",
+    "bytes": 8727267,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2022.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2021.csv",
+    "fileDate": "2021-12-31T23:59:59+08:00",
+    "bytes": 8692321,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2021.csv",
+    "fileDate": "2021-11-30T23:59:59+08:00",
+    "bytes": 8368105,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2021.csv",
+    "fileDate": "2021-10-31T23:59:59+08:00",
+    "bytes": 8665150,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2021.csv",
+    "fileDate": "2021-09-30T23:59:59+08:00",
+    "bytes": 8378216,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2021.csv",
+    "fileDate": "2021-08-31T23:59:59+08:00",
+    "bytes": 8668985,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2021.csv",
+    "fileDate": "2021-07-31T23:59:59+08:00",
+    "bytes": 8691589,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2021.csv",
+    "fileDate": "2021-06-30T23:59:59+08:00",
+    "bytes": 8420984,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2021.csv",
+    "fileDate": "2021-05-31T23:59:59+08:00",
+    "bytes": 8710437,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2021.csv",
+    "fileDate": "2021-04-30T23:59:59+08:00",
+    "bytes": 8402669,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2021.csv",
+    "fileDate": "2021-03-31T23:59:59+08:00",
+    "bytes": 8693354,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2021.csv",
+    "fileDate": "2021-02-28T23:59:59+08:00",
+    "bytes": 7865326,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2021.csv",
+    "fileDate": "2021-01-31T23:59:59+08:00",
+    "bytes": 8720379,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2021.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2020.csv",
+    "fileDate": "2020-12-31T23:59:59+08:00",
+    "bytes": 8708840,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2020.csv",
+    "fileDate": "2020-11-30T23:59:59+08:00",
+    "bytes": 8405548,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2020.csv",
+    "fileDate": "2020-10-31T23:59:59+08:00",
+    "bytes": 8700803,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2020.csv",
+    "fileDate": "2020-09-30T23:59:59+08:00",
+    "bytes": 8444456,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2020.csv",
+    "fileDate": "2020-08-31T23:59:59+08:00",
+    "bytes": 8650059,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2020.csv",
+    "fileDate": "2020-07-31T23:59:59+08:00",
+    "bytes": 8593090,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2020.csv",
+    "fileDate": "2020-06-30T23:59:59+08:00",
+    "bytes": 8294666,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2020.csv",
+    "fileDate": "2020-05-31T23:59:59+08:00",
+    "bytes": 8544016,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2020.csv",
+    "fileDate": "2020-04-30T23:59:59+08:00",
+    "bytes": 8208798,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2020.csv",
+    "fileDate": "2020-03-31T23:59:59+08:00",
+    "bytes": 8493800,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2020.csv",
+    "fileDate": "2020-02-29T23:59:59+08:00",
+    "bytes": 7991745,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2020.csv",
+    "fileDate": "2020-01-31T23:59:59+08:00",
+    "bytes": 8558624,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2020.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2019.csv",
+    "fileDate": "2019-12-31T23:59:59+08:00",
+    "bytes": 8550813,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2019.csv",
+    "fileDate": "2019-11-30T23:59:59+08:00",
+    "bytes": 8241002,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2019.csv",
+    "fileDate": "2019-10-31T23:59:59+08:00",
+    "bytes": 8504184,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2019.csv",
+    "fileDate": "2019-09-30T23:59:59+08:00",
+    "bytes": 8241505,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2019.csv",
+    "fileDate": "2019-08-31T23:59:59+08:00",
+    "bytes": 8480650,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2019.csv",
+    "fileDate": "2019-07-31T23:59:59+08:00",
+    "bytes": 8421468,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2019.csv",
+    "fileDate": "2019-06-30T23:59:59+08:00",
+    "bytes": 8123338,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2019.csv",
+    "fileDate": "2019-05-31T23:59:59+08:00",
+    "bytes": 8374122,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2019.csv",
+    "fileDate": "2019-04-30T23:59:59+08:00",
+    "bytes": 8087640,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2019.csv",
+    "fileDate": "2019-03-31T23:59:59+08:00",
+    "bytes": 8323839,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2019.csv",
+    "fileDate": "2019-02-28T23:59:59+08:00",
+    "bytes": 7463002,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2019.csv",
+    "fileDate": "2019-01-31T23:59:59+08:00",
+    "bytes": 8263895,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2019.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2018.csv",
+    "fileDate": "2018-12-31T23:59:59+08:00",
+    "bytes": 8224788,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2018.csv",
+    "fileDate": "2018-11-30T23:59:59+08:00",
+    "bytes": 7911149,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2018.csv",
+    "fileDate": "2018-10-31T23:59:59+08:00",
+    "bytes": 8132138,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2018.csv",
+    "fileDate": "2018-09-30T23:59:59+08:00",
+    "bytes": 7851844,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2018.csv",
+    "fileDate": "2018-08-31T23:59:59+08:00",
+    "bytes": 8046013,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2018.csv",
+    "fileDate": "2018-07-31T23:59:59+08:00",
+    "bytes": 7985171,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2018.csv",
+    "fileDate": "2018-06-30T23:59:59+08:00",
+    "bytes": 7708989,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2018.csv",
+    "fileDate": "2018-05-31T23:59:59+08:00",
+    "bytes": 7926659,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2018.csv",
+    "fileDate": "2018-04-30T23:59:59+08:00",
+    "bytes": 7667893,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2018.csv",
+    "fileDate": "2018-03-31T23:59:59+08:00",
+    "bytes": 7920435,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2018.csv",
+    "fileDate": "2018-02-28T23:59:59+08:00",
+    "bytes": 7135818,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2018.csv",
+    "fileDate": "2018-01-31T23:59:59+08:00",
+    "bytes": 7894519,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2018.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2017.csv",
+    "fileDate": "2017-12-31T23:59:59+08:00",
+    "bytes": 7855214,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2017.csv",
+    "fileDate": "2017-11-30T23:59:59+08:00",
+    "bytes": 7542960,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2017.csv",
+    "fileDate": "2017-10-31T23:59:59+08:00",
+    "bytes": 7748133,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2017.csv",
+    "fileDate": "2017-09-30T23:59:59+08:00",
+    "bytes": 7407009,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2017.csv",
+    "fileDate": "2017-08-31T23:59:59+08:00",
+    "bytes": 7599696,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2017.csv",
+    "fileDate": "2017-07-31T23:59:59+08:00",
+    "bytes": 7602414,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2017.csv",
+    "fileDate": "2017-06-30T23:59:59+08:00",
+    "bytes": 7331522,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2017.csv",
+    "fileDate": "2017-05-31T23:59:59+08:00",
+    "bytes": 7509773,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2017.csv",
+    "fileDate": "2017-04-30T23:59:59+08:00",
+    "bytes": 7237036,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2017.csv",
+    "fileDate": "2017-03-31T23:59:59+08:00",
+    "bytes": 7487858,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2017.csv",
+    "fileDate": "2017-02-28T23:59:59+08:00",
+    "bytes": 6715488,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2017.csv",
+    "fileDate": "2017-01-31T23:59:59+08:00",
+    "bytes": 7434002,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2017.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2016.csv",
+    "fileDate": "2016-12-31T23:59:59+08:00",
+    "bytes": 7423740,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2016.csv",
+    "fileDate": "2016-11-30T23:59:59+08:00",
+    "bytes": 7156274,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2016.csv",
+    "fileDate": "2016-10-31T23:59:59+08:00",
+    "bytes": 7410513,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2016.csv",
+    "fileDate": "2016-09-30T23:59:59+08:00",
+    "bytes": 7167999,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2016.csv",
+    "fileDate": "2016-08-31T23:59:59+08:00",
+    "bytes": 7378940,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2016.csv",
+    "fileDate": "2016-07-31T23:59:59+08:00",
+    "bytes": 7342783,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2016.csv",
+    "fileDate": "2016-06-30T23:59:59+08:00",
+    "bytes": 7068119,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2016.csv",
+    "fileDate": "2016-05-31T23:59:59+08:00",
+    "bytes": 7326393,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2016.csv",
+    "fileDate": "2016-04-30T23:59:59+08:00",
+    "bytes": 7056684,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2016.csv",
+    "fileDate": "2016-03-31T23:59:59+08:00",
+    "bytes": 7294281,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2016.csv",
+    "fileDate": "2016-02-29T23:59:59+08:00",
+    "bytes": 6846035,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2016.csv",
+    "fileDate": "2016-01-31T23:59:59+08:00",
+    "bytes": 7341631,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2016.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2015.csv",
+    "fileDate": "2015-12-31T23:59:59+08:00",
+    "bytes": 7315524,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2015.csv",
+    "fileDate": "2015-11-30T23:59:59+08:00",
+    "bytes": 7012105,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2015.csv",
+    "fileDate": "2015-10-31T23:59:59+08:00",
+    "bytes": 7276745,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2015.csv",
+    "fileDate": "2015-09-30T23:59:59+08:00",
+    "bytes": 7047900,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2015.csv",
+    "fileDate": "2015-08-31T23:59:59+08:00",
+    "bytes": 7287977,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2015.csv",
+    "fileDate": "2015-07-31T23:59:59+08:00",
+    "bytes": 7285785,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2015.csv",
+    "fileDate": "2015-06-30T23:59:59+08:00",
+    "bytes": 7012091,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2015.csv",
+    "fileDate": "2015-05-31T23:59:59+08:00",
+    "bytes": 7230951,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2015.csv",
+    "fileDate": "2015-04-30T23:59:59+08:00",
+    "bytes": 7012163,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2015.csv",
+    "fileDate": "2015-03-31T23:59:59+08:00",
+    "bytes": 7256393,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2015.csv",
+    "fileDate": "2015-02-28T23:59:59+08:00",
+    "bytes": 6553259,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2015.csv",
+    "fileDate": "2015-01-31T23:59:59+08:00",
+    "bytes": 7249582,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2015.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2014.csv",
+    "fileDate": "2014-12-31T23:59:59+08:00",
+    "bytes": 7266305,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2014.csv",
+    "fileDate": "2014-11-30T23:59:59+08:00",
+    "bytes": 7067340,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2014.csv",
+    "fileDate": "2014-10-31T23:59:59+08:00",
+    "bytes": 7309281,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2014.csv",
+    "fileDate": "2014-09-30T23:59:59+08:00",
+    "bytes": 7064410,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2014.csv",
+    "fileDate": "2014-08-31T23:59:59+08:00",
+    "bytes": 7281354,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2014.csv",
+    "fileDate": "2014-07-31T23:59:59+08:00",
+    "bytes": 7239382,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2014.csv",
+    "fileDate": "2014-06-30T23:59:59+08:00",
+    "bytes": 6999758,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2014.csv",
+    "fileDate": "2014-05-31T23:59:59+08:00",
+    "bytes": 7234007,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2014.csv",
+    "fileDate": "2014-04-30T23:59:59+08:00",
+    "bytes": 6993792,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2014.csv",
+    "fileDate": "2014-03-31T23:59:59+08:00",
+    "bytes": 7244404,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2014.csv",
+    "fileDate": "2014-02-28T23:59:59+08:00",
+    "bytes": 6555668,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2014.csv",
+    "fileDate": "2014-01-31T23:59:59+08:00",
+    "bytes": 7256110,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2014.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2013.csv",
+    "fileDate": "2013-12-31T23:59:59+08:00",
+    "bytes": 7227995,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2013.csv",
+    "fileDate": "2013-11-30T23:59:59+08:00",
+    "bytes": 6986857,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2013.csv",
+    "fileDate": "2013-10-31T23:59:59+08:00",
+    "bytes": 7214403,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2013.csv",
+    "fileDate": "2013-09-30T23:59:59+08:00",
+    "bytes": 6986122,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2013.csv",
+    "fileDate": "2013-08-31T23:59:59+08:00",
+    "bytes": 7218635,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2013.csv",
+    "fileDate": "2013-07-31T23:59:59+08:00",
+    "bytes": 7196094,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2013.csv",
+    "fileDate": "2013-06-30T23:59:59+08:00",
+    "bytes": 6955782,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2013.csv",
+    "fileDate": "2013-05-31T23:59:59+08:00",
+    "bytes": 7157088,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2013.csv",
+    "fileDate": "2013-04-30T23:59:59+08:00",
+    "bytes": 6924772,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2013.csv",
+    "fileDate": "2013-03-31T23:59:59+08:00",
+    "bytes": 7159930,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2013.csv",
+    "fileDate": "2013-02-28T23:59:59+08:00",
+    "bytes": 6462721,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2013.csv",
+    "fileDate": "2013-01-31T23:59:59+08:00",
+    "bytes": 7165924,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2013.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2012.csv",
+    "fileDate": "2012-12-31T23:59:59+08:00",
+    "bytes": 7162786,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2012.csv",
+    "fileDate": "2012-11-30T23:59:59+08:00",
+    "bytes": 6906896,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2012.csv",
+    "fileDate": "2012-10-31T23:59:59+08:00",
+    "bytes": 7135194,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2012.csv",
+    "fileDate": "2012-09-30T23:59:59+08:00",
+    "bytes": 6896419,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2012.csv",
+    "fileDate": "2012-08-31T23:59:59+08:00",
+    "bytes": 7137071,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2012.csv",
+    "fileDate": "2012-07-31T23:59:59+08:00",
+    "bytes": 7142586,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2012.csv",
+    "fileDate": "2012-06-30T23:59:59+08:00",
+    "bytes": 6894599,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2012.csv",
+    "fileDate": "2012-05-31T23:59:59+08:00",
+    "bytes": 7123003,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2012.csv",
+    "fileDate": "2012-04-30T23:59:59+08:00",
+    "bytes": 6896305,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2012.csv",
+    "fileDate": "2012-03-31T23:59:59+08:00",
+    "bytes": 7113527,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2012.csv",
+    "fileDate": "2012-02-29T23:59:59+08:00",
+    "bytes": 6653757,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2012.csv",
+    "fileDate": "2012-01-31T23:59:59+08:00",
+    "bytes": 7153237,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2012.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2011.csv",
+    "fileDate": "2011-12-31T23:59:59+08:00",
+    "bytes": 7149088,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2011.csv",
+    "fileDate": "2011-11-30T23:59:59+08:00",
+    "bytes": 6910384,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2011.csv",
+    "fileDate": "2011-10-31T23:59:59+08:00",
+    "bytes": 7107975,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2011.csv",
+    "fileDate": "2011-09-30T23:59:59+08:00",
+    "bytes": 6861477,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2011.csv",
+    "fileDate": "2011-08-31T23:59:59+08:00",
+    "bytes": 7063255,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2011.csv",
+    "fileDate": "2011-07-31T23:59:59+08:00",
+    "bytes": 6990191,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2011.csv",
+    "fileDate": "2011-06-30T23:59:59+08:00",
+    "bytes": 6683930,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2011.csv",
+    "fileDate": "2011-05-31T23:59:59+08:00",
+    "bytes": 6900832,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2011.csv",
+    "fileDate": "2011-04-30T23:59:59+08:00",
+    "bytes": 6709769,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2011.csv",
+    "fileDate": "2011-03-31T23:59:59+08:00",
+    "bytes": 6988300,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2011.csv",
+    "fileDate": "2011-02-28T23:59:59+08:00",
+    "bytes": 6315976,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2011.csv",
+    "fileDate": "2011-01-31T23:59:59+08:00",
+    "bytes": 6973210,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2011.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2010.csv",
+    "fileDate": "2010-12-31T23:59:59+08:00",
+    "bytes": 6979834,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2010.csv",
+    "fileDate": "2010-11-30T23:59:59+08:00",
+    "bytes": 6760244,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2010.csv",
+    "fileDate": "2010-10-31T23:59:59+08:00",
+    "bytes": 6985276,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2010.csv",
+    "fileDate": "2010-09-30T23:59:59+08:00",
+    "bytes": 6751645,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2010.csv",
+    "fileDate": "2010-08-31T23:59:59+08:00",
+    "bytes": 6952484,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2010.csv",
+    "fileDate": "2010-07-31T23:59:59+08:00",
+    "bytes": 6952671,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2010.csv",
+    "fileDate": "2010-06-30T23:59:59+08:00",
+    "bytes": 6715458,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2010.csv",
+    "fileDate": "2010-05-31T23:59:59+08:00",
+    "bytes": 6940244,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2010.csv",
+    "fileDate": "2010-04-30T23:59:59+08:00",
+    "bytes": 6718360,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2010.csv",
+    "fileDate": "2010-03-31T23:59:59+08:00",
+    "bytes": 6951499,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2010.csv",
+    "fileDate": "2010-02-28T23:59:59+08:00",
+    "bytes": 6268463,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2010.csv",
+    "fileDate": "2010-01-31T23:59:59+08:00",
+    "bytes": 6940058,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2010.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2009.csv",
+    "fileDate": "2009-12-31T23:59:59+08:00",
+    "bytes": 6972545,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2009.csv",
+    "fileDate": "2009-11-30T23:59:59+08:00",
+    "bytes": 6705209,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2009.csv",
+    "fileDate": "2009-10-31T23:59:59+08:00",
+    "bytes": 6902069,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2009.csv",
+    "fileDate": "2009-09-30T23:59:59+08:00",
+    "bytes": 6683384,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2009.csv",
+    "fileDate": "2009-08-31T23:59:59+08:00",
+    "bytes": 6869872,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2009.csv",
+    "fileDate": "2009-07-31T23:59:59+08:00",
+    "bytes": 6874774,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2009.csv",
+    "fileDate": "2009-06-30T23:59:59+08:00",
+    "bytes": 6664745,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2009.csv",
+    "fileDate": "2009-05-31T23:59:59+08:00",
+    "bytes": 6882484,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2009.csv",
+    "fileDate": "2009-04-30T23:59:59+08:00",
+    "bytes": 6666070,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2009.csv",
+    "fileDate": "2009-03-31T23:59:59+08:00",
+    "bytes": 6895296,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2009.csv",
+    "fileDate": "2009-02-28T23:59:59+09:00",
+    "bytes": 6244052,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2009.csv",
+    "fileDate": "2009-01-31T23:59:59+09:00",
+    "bytes": 6939460,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2009.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2008.csv",
+    "fileDate": "2008-12-31T23:59:59+09:00",
+    "bytes": 6924226,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2008.csv",
+    "fileDate": "2008-11-30T23:59:59+09:00",
+    "bytes": 6675171,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2008.csv",
+    "fileDate": "2008-10-31T23:59:59+09:00",
+    "bytes": 6924925,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2008.csv",
+    "fileDate": "2008-09-30T23:59:59+08:00",
+    "bytes": 6709458,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2008.csv",
+    "fileDate": "2008-08-31T23:59:59+08:00",
+    "bytes": 6970766,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2008.csv",
+    "fileDate": "2008-07-31T23:59:59+08:00",
+    "bytes": 6967668,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2008.csv",
+    "fileDate": "2008-06-30T23:59:59+08:00",
+    "bytes": 6729399,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2008.csv",
+    "fileDate": "2008-05-31T23:59:59+08:00",
+    "bytes": 6981397,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2008.csv",
+    "fileDate": "2008-04-30T23:59:59+08:00",
+    "bytes": 6777128,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2008.csv",
+    "fileDate": "2008-03-31T23:59:59+08:00",
+    "bytes": 7013637,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2008.csv",
+    "fileDate": "2008-02-29T23:59:59+09:00",
+    "bytes": 6560296,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2008.csv",
+    "fileDate": "2008-01-31T23:59:59+09:00",
+    "bytes": 7014586,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2008.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2007.csv",
+    "fileDate": "2007-12-31T23:59:59+09:00",
+    "bytes": 6971281,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2007.csv",
+    "fileDate": "2007-11-30T23:59:59+09:00",
+    "bytes": 6697326,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2007.csv",
+    "fileDate": "2007-10-31T23:59:59+09:00",
+    "bytes": 6918261,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2007.csv",
+    "fileDate": "2007-09-30T23:59:59+08:00",
+    "bytes": 6690944,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2007.csv",
+    "fileDate": "2007-08-31T23:59:59+08:00",
+    "bytes": 6911162,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2007.csv",
+    "fileDate": "2007-07-31T23:59:59+08:00",
+    "bytes": 6918156,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2007.csv",
+    "fileDate": "2007-06-30T23:59:59+08:00",
+    "bytes": 6691350,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2007.csv",
+    "fileDate": "2007-05-31T23:59:59+08:00",
+    "bytes": 6876622,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2007.csv",
+    "fileDate": "2007-04-30T23:59:59+08:00",
+    "bytes": 6613506,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2007.csv",
+    "fileDate": "2007-03-31T23:59:59+08:00",
+    "bytes": 6863573,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2007.csv",
+    "fileDate": "2007-02-28T23:59:59+09:00",
+    "bytes": 6172385,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2007.csv",
+    "fileDate": "2007-01-31T23:59:59+09:00",
+    "bytes": 6811104,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2007.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2006.csv",
+    "fileDate": "2006-12-31T23:59:59+09:00",
+    "bytes": 6809456,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2006.csv",
+    "fileDate": "2006-11-30T23:59:59+08:00",
+    "bytes": 6651682,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2006.csv",
+    "fileDate": "2006-10-31T23:59:59+08:00",
+    "bytes": 6897980,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2006.csv",
+    "fileDate": "2006-09-30T23:59:59+08:00",
+    "bytes": 6718636,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2006.csv",
+    "fileDate": "2006-08-31T23:59:59+08:00",
+    "bytes": 7002206,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2006.csv",
+    "fileDate": "2006-07-31T23:59:59+08:00",
+    "bytes": 7042644,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2006.csv",
+    "fileDate": "2006-06-30T23:59:59+08:00",
+    "bytes": 6834652,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2006.csv",
+    "fileDate": "2006-05-31T23:59:59+08:00",
+    "bytes": 7051774,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2006.csv",
+    "fileDate": "2006-04-30T23:59:59+08:00",
+    "bytes": 6838277,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2006.csv",
+    "fileDate": "2006-03-31T23:59:59+08:00",
+    "bytes": 7098166,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2006.csv",
+    "fileDate": "2006-02-28T23:59:59+08:00",
+    "bytes": 6447837,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2006.csv",
+    "fileDate": "2006-01-31T23:59:59+08:00",
+    "bytes": 7155627,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2006.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2005.csv",
+    "fileDate": "2005-12-31T23:59:59+08:00",
+    "bytes": 7166968,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2005.csv",
+    "fileDate": "2005-11-30T23:59:59+08:00",
+    "bytes": 6958928,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2005.csv",
+    "fileDate": "2005-10-31T23:59:59+08:00",
+    "bytes": 7223663,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2005.csv",
+    "fileDate": "2005-09-30T23:59:59+08:00",
+    "bytes": 7014446,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2005.csv",
+    "fileDate": "2005-08-31T23:59:59+08:00",
+    "bytes": 7334415,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2005.csv",
+    "fileDate": "2005-07-31T23:59:59+08:00",
+    "bytes": 7487769,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2005.csv",
+    "fileDate": "2005-06-30T23:59:59+08:00",
+    "bytes": 7492816,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2005.csv",
+    "fileDate": "2005-05-31T23:59:59+08:00",
+    "bytes": 7848572,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2005.csv",
+    "fileDate": "2005-04-30T23:59:59+08:00",
+    "bytes": 7682364,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2005.csv",
+    "fileDate": "2005-03-31T23:59:59+08:00",
+    "bytes": 7924301,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2005.csv",
+    "fileDate": "2005-02-28T23:59:59+08:00",
+    "bytes": 7184197,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2005.csv",
+    "fileDate": "2005-01-31T23:59:59+08:00",
+    "bytes": 8014434,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2005.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2004.csv",
+    "fileDate": "2004-12-31T23:59:59+08:00",
+    "bytes": 8038102,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2004.csv",
+    "fileDate": "2004-11-30T23:59:59+08:00",
+    "bytes": 7788199,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2004.csv",
+    "fileDate": "2004-10-31T23:59:59+08:00",
+    "bytes": 8091482,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2004.csv",
+    "fileDate": "2004-09-30T23:59:59+08:00",
+    "bytes": 7842846,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2004.csv",
+    "fileDate": "2004-08-31T23:59:59+08:00",
+    "bytes": 8149544,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2004.csv",
+    "fileDate": "2004-07-31T23:59:59+08:00",
+    "bytes": 8177684,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2004.csv",
+    "fileDate": "2004-06-30T23:59:59+08:00",
+    "bytes": 7945376,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2004.csv",
+    "fileDate": "2004-05-31T23:59:59+08:00",
+    "bytes": 8224638,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2004.csv",
+    "fileDate": "2004-04-30T23:59:59+08:00",
+    "bytes": 7944641,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2004.csv",
+    "fileDate": "2004-03-31T23:59:59+08:00",
+    "bytes": 8211154,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2004.csv",
+    "fileDate": "2004-02-29T23:59:59+08:00",
+    "bytes": 7676362,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2004.csv",
+    "fileDate": "2004-01-31T23:59:59+08:00",
+    "bytes": 8236496,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2004.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2003.csv",
+    "fileDate": "2003-12-31T23:59:59+08:00",
+    "bytes": 8198900,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2003.csv",
+    "fileDate": "2003-11-30T23:59:59+08:00",
+    "bytes": 7938325,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2003.csv",
+    "fileDate": "2003-10-31T23:59:59+08:00",
+    "bytes": 8240284,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2003.csv",
+    "fileDate": "2003-09-30T23:59:59+08:00",
+    "bytes": 8021573,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2003.csv",
+    "fileDate": "2003-08-31T23:59:59+08:00",
+    "bytes": 8307492,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2003.csv",
+    "fileDate": "2003-07-31T23:59:59+08:00",
+    "bytes": 8315888,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2003.csv",
+    "fileDate": "2003-06-30T23:59:59+08:00",
+    "bytes": 8135202,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2003.csv",
+    "fileDate": "2003-05-31T23:59:59+08:00",
+    "bytes": 7617293,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2003.csv",
+    "fileDate": "2003-04-30T23:59:59+08:00",
+    "bytes": 6940347,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2003.csv",
+    "fileDate": "2003-03-31T23:59:59+08:00",
+    "bytes": 7234558,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2003.csv",
+    "fileDate": "2003-02-28T23:59:59+08:00",
+    "bytes": 6567966,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2003.csv",
+    "fileDate": "2003-01-31T23:59:59+08:00",
+    "bytes": 7249415,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2003.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2002.csv",
+    "fileDate": "2002-12-31T23:59:59+08:00",
+    "bytes": 7224060,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2002.csv",
+    "fileDate": "2002-11-30T23:59:59+08:00",
+    "bytes": 7011306,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2002.csv",
+    "fileDate": "2002-10-31T23:59:59+08:00",
+    "bytes": 7290213,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2002.csv",
+    "fileDate": "2002-09-30T23:59:59+08:00",
+    "bytes": 7061476,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2002.csv",
+    "fileDate": "2002-08-31T23:59:59+08:00",
+    "bytes": 7257160,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2002.csv",
+    "fileDate": "2002-07-31T23:59:59+08:00",
+    "bytes": 7252615,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2002.csv",
+    "fileDate": "2002-06-30T23:59:59+08:00",
+    "bytes": 7062620,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2002.csv",
+    "fileDate": "2002-05-31T23:59:59+08:00",
+    "bytes": 7284696,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2002.csv",
+    "fileDate": "2002-04-30T23:59:59+08:00",
+    "bytes": 7035335,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2002.csv",
+    "fileDate": "2002-03-31T23:59:59+08:00",
+    "bytes": 7297227,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2002.csv",
+    "fileDate": "2002-02-28T23:59:59+08:00",
+    "bytes": 6577727,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2002.csv",
+    "fileDate": "2002-01-31T23:59:59+08:00",
+    "bytes": 7278603,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2002.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-12-2001.csv",
+    "fileDate": "2001-12-31T23:59:59+08:00",
+    "bytes": 7320317,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-12-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-11-2001.csv",
+    "fileDate": "2001-11-30T23:59:59+08:00",
+    "bytes": 7112695,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-11-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-10-2001.csv",
+    "fileDate": "2001-10-31T23:59:59+08:00",
+    "bytes": 7408582,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-10-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-09-2001.csv",
+    "fileDate": "2001-09-30T23:59:59+08:00",
+    "bytes": 7176389,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-09-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-08-2001.csv",
+    "fileDate": "2001-08-31T23:59:59+08:00",
+    "bytes": 7431068,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-08-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-07-2001.csv",
+    "fileDate": "2001-07-31T23:59:59+08:00",
+    "bytes": 7418888,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-07-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-06-2001.csv",
+    "fileDate": "2001-06-30T23:59:59+08:00",
+    "bytes": 7113369,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-06-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-05-2001.csv",
+    "fileDate": "2001-05-31T23:59:59+08:00",
+    "bytes": 7340932,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-05-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-04-2001.csv",
+    "fileDate": "2001-04-30T23:59:59+08:00",
+    "bytes": 7121347,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-04-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-03-2001.csv",
+    "fileDate": "2001-03-31T23:59:59+08:00",
+    "bytes": 7318860,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-03-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-02-2001.csv",
+    "fileDate": "2001-02-28T23:59:59+08:00",
+    "bytes": 6525612,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-02-2001.csv"
+  },
+  {
+    "fileName": "FuelWatchRetail-01-2001.csv",
+    "fileDate": "2001-01-31T23:59:59+08:00",
+    "bytes": 6379701,
+    "url": "https://warsydprdstafuelwatch.blob.core.windows.net/historical-reports/FuelWatchRetail-01-2001.csv"
+  }
+]
